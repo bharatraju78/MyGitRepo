@@ -1,0 +1,171 @@
+2025-11-25 21:49:23 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 25140 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-25 21:49:23 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-25 21:49:23 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-25 21:49:23 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-25 21:49:25 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-25 21:49:25 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 263 ms. Found 18 JPA repository interfaces.
+2025-11-25 21:49:26 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-25 21:49:26 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-25 21:49:26 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-25 21:49:26 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-25 21:49:27 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-25 21:49:27 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-25 21:49:27 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3784 ms
+2025-11-25 21:49:27 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-25 21:49:27 - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-11-25 21:49:27 - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-11-25 21:49:27 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-25 21:49:28 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-25 21:49:28 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-25 21:49:29 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-25 21:49:29 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25 21:49:30 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ace727b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1875ff32, org.springframework.security.web.context.SecurityContextPersistenceFilter@29e1d16c, org.springframework.security.web.header.HeaderWriterFilter@7cd1f5e9, org.springframework.security.web.authentication.logout.LogoutFilter@8be5484, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@443183b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1115a60f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@386b194f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50919bce, org.springframework.security.web.session.SessionManagementFilter@a50d36c, org.springframework.security.web.access.ExceptionTranslationFilter@23ae3887, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b754e3a]
+2025-11-25 21:49:30 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-25 21:49:30 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-25 21:49:30 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-25 21:49:31 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-25 21:49:31 - com.vam.cco.CCOApplication - Started CCOApplication in 7.907 seconds (JVM running for 8.791)
+2025-11-25 21:50:23 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-25 21:50:23 - c.vam.cco.controller.LoginController - LoginController::welcome::start
+2025-11-25 21:50:23 - c.vam.cco.controller.LoginController - LoginController::welcome::end
+2025-11-25 21:51:13 - c.v.c.s.CustomUserDetailsService - Attempting to load user by username: admin
+2025-11-25 21:51:13 - org.hibernate.SQL - 
+    select
+        user0_.id as id1_18_,
+        user0_.email_id as email_id2_18_,
+        user0_.enabled as enabled3_18_,
+        user0_.password as password4_18_,
+        user0_.username as username5_18_ 
+    from
+        users user0_ 
+    where
+        user0_.username=?
+2025-11-25 21:51:13 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [admin]
+2025-11-25 21:51:13 - org.hibernate.SQL - 
+    select
+        roles0_.user_id as user_id1_17_0_,
+        roles0_.role_id as role_id2_17_0_,
+        role1_.id as id1_15_1_,
+        role1_.name as name2_15_1_ 
+    from
+        user_roles roles0_ 
+    inner join
+        roles role1_ 
+            on roles0_.role_id=role1_.id 
+    where
+        roles0_.user_id=?
+2025-11-25 21:51:13 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-25 21:51:13 - c.v.c.s.CustomUserDetailsService - User 'admin' loaded successfully with roles: [POWER_USER, ADMIN] , enable : true
+2025-11-25 21:51:13 - c.vam.cco.controller.LoginController - LoginController::postLogin::start = admin
+2025-11-25 21:51:13 - c.vam.cco.controller.LoginController - LoginController::postLogin::userRole = ROLE_ADMIN, ROLE_POWER_USER
+2025-11-25 21:52:37 - c.v.c.controller.PortfolioController - PortfolioController::listPortfolios::start
+2025-11-25 21:52:37 - c.v.c.s.impl.PortfolioServiceImpl - Fetching all portfolios
+2025-11-25 21:52:37 - org.hibernate.SQL - 
+    select
+        distinct portfolio0_.id as col_0_0_,
+        portfolio0_.portfolio_number as col_1_0_,
+        portfolio0_.name as col_2_0_,
+        portfolio0_.active as col_3_0_,
+        portfolio0_.portfolio_leader as col_4_0_,
+        employee1_.name as col_5_0_,
+        portfolio0_.portfolio_hr as col_6_0_,
+        employee2_.name as col_7_0_,
+        portfolio0_.description as col_8_0_ 
+    from
+        portfolio portfolio0_ 
+    inner join
+        employee employee1_ 
+            on (
+                portfolio0_.portfolio_leader=employee1_.employee_id
+            ) 
+    inner join
+        employee employee2_ 
+            on (
+                portfolio0_.portfolio_hr=employee2_.employee_id
+            ) 
+    order by
+        portfolio0_.name limit ?
+2025-11-25 21:52:37 - c.v.c.controller.PortfolioController - PortfolioController::listPortfolios::end
+2025-11-25 21:52:38 - c.v.c.controller.PortfolioController - PortfolioController::showAddForm::start
+2025-11-25 21:52:38 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::start
+2025-11-25 21:52:38 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::bigInt = 25504790916303605379381668113694993264057643672316233094030283561226686654054
+2025-11-25 21:52:38 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::id = 6686654054
+2025-11-25 21:52:38 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::end
+2025-11-25 21:52:38 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders start
+2025-11-25 21:52:38 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders designations = [Executive Vice President, Senior Vice President, Vice President, Associate Vice President]
+2025-11-25 21:52:38 - org.hibernate.SQL - 
+    select
+        distinct employee0_.employee_id as col_0_0_,
+        employee0_.name as col_1_0_ 
+    from
+        employee employee0_ 
+    inner join
+        employee_designation employeede1_ 
+            on (
+                employee0_.employee_id=employeede1_.employee_id
+            ) 
+    inner join
+        designation designatio2_ 
+            on (
+                employeede1_.designation_id=designatio2_.designation_id
+            ) 
+    where
+        designatio2_.designation_name in (
+            ? , ? , ? , ?
+        ) 
+    order by
+        employee0_.name
+2025-11-25 21:52:38 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Executive Vice President]
+2025-11-25 21:52:38 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Senior Vice President]
+2025-11-25 21:52:38 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [Vice President]
+2025-11-25 21:52:38 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Associate Vice President]
+2025-11-25 21:52:38 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders size = 0
+2025-11-25 21:52:38 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders end
+2025-11-25 21:52:38 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio HRs start
+2025-11-25 21:52:38 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio hrDesignations = [HR, HR Manager, HR Executive]
+2025-11-25 21:52:38 - org.hibernate.SQL - 
+    select
+        distinct employee0_.employee_id as col_0_0_,
+        employee0_.name as col_1_0_ 
+    from
+        employee employee0_ 
+    inner join
+        employee_designation employeede1_ 
+            on (
+                employee0_.employee_id=employeede1_.employee_id
+            ) 
+    inner join
+        designation designatio2_ 
+            on (
+                employeede1_.designation_id=designatio2_.designation_id
+            ) 
+    where
+        designatio2_.designation_name in (
+            ? , ? , ?
+        ) 
+    order by
+        employee0_.name
+2025-11-25 21:52:38 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [HR]
+2025-11-25 21:52:38 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [HR Manager]
+2025-11-25 21:52:38 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [HR Executive]
+2025-11-25 21:52:38 - c.v.c.s.impl.PortfolioServiceImpl - Found 0 HR employees for portfolios
+2025-11-25 21:52:38 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio HRs end
+2025-11-25 21:52:38 - c.v.c.controller.PortfolioController - PortfolioController::showAddForm::end
+2025-11-25 21:52:46 - c.v.c.c.ProjectRoleController - Fetching project roles with pagination. Page: 1, Size: 10
+2025-11-25 21:52:46 - org.hibernate.SQL - 
+    select
+        projectrol0_.project_role_id as project_1_13_,
+        projectrol0_.created_by as created_2_13_,
+        projectrol0_.created_date as created_3_13_,
+        projectrol0_.modified_by as modified4_13_,
+        projectrol0_.modified_date as modified5_13_,
+        projectrol0_.order_no as order_no6_13_,
+        projectrol0_.role_name as role_nam7_13_ 
+    from
+        project_role projectrol0_ 
+    order by
+        projectrol0_.role_name ASC limit ?
+2025-11-25 21:52:46 - c.v.c.c.ProjectRoleController - Total project roles found: 0
+2025-11-25 21:52:48 - c.v.c.c.ProjectRoleController - Showing add project role form
+2025-11-25 21:52:48 - c.v.c.c.ProjectRoleController - ProjectRoleController::showEditProjectRole::proRoleModel = ProjectRoleModel [projectRoleId=null, roleName=null, orderNo=null, createdBy=admin, modifiedBy=admin, createdDate=2025-11-25 21:52:48.106, modifiedDate=2025-11-25 21:52:48.106]
+2025-11-25 21:52:48 - c.v.c.c.ProjectRoleController - ProjectRoleController::showEditProjectRole::end

@@ -1,0 +1,2306 @@
+2025-11-26 03:50:54 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h16m54s806ms266µs800ns).
+2025-11-26 11:32:52 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h41m57s249ms25µs800ns).
+2025-11-26 12:30:10 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m23s487ms457µs200ns).
+2025-11-26 12:34:31 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:34:31 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:34:31 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-26 12:34:31 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-26 12:34:33 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:34:33 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 252 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:34:34 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:34:34 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:34:34 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:34:34 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:34:35 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:34:35 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:34:35 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3726 ms
+2025-11-26 12:34:35 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:34:35 - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-11-26 12:34:35 - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-11-26 12:34:35 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-26 12:34:36 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-26 12:34:36 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:34:36 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:34:36 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:34:38 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@63a599f7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c00f27, org.springframework.security.web.context.SecurityContextPersistenceFilter@5868b2e6, org.springframework.security.web.header.HeaderWriterFilter@49f96f8f, org.springframework.security.web.authentication.logout.LogoutFilter@7029ed7f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@28d3fd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@478e712d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3403aa88, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@443183b9, org.springframework.security.web.session.SessionManagementFilter@23ae3887, org.springframework.security.web.access.ExceptionTranslationFilter@2812265f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@af5666c]
+2025-11-26 12:34:38 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:34:38 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:34:38 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:34:38 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:34:38 - com.vam.cco.CCOApplication - Started CCOApplication in 7.911 seconds (JVM running for 9.051)
+2025-11-26 12:34:54 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-26 12:34:54 - o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [119] milliseconds.
+2025-11-26 12:34:54 - c.vam.cco.controller.LoginController - LoginController::welcome::start
+2025-11-26 12:34:54 - c.vam.cco.controller.LoginController - LoginController::welcome::end
+2025-11-26 12:35:03 - c.v.c.s.CustomUserDetailsService - Attempting to load user by username: admin
+2025-11-26 12:35:03 - org.hibernate.SQL - 
+    select
+        user0_.id as id1_18_,
+        user0_.email_id as email_id2_18_,
+        user0_.enabled as enabled3_18_,
+        user0_.password as password4_18_,
+        user0_.username as username5_18_ 
+    from
+        users user0_ 
+    where
+        user0_.username=?
+2025-11-26 12:35:03 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [admin]
+2025-11-26 12:35:03 - org.hibernate.SQL - 
+    select
+        roles0_.user_id as user_id1_17_0_,
+        roles0_.role_id as role_id2_17_0_,
+        role1_.id as id1_15_1_,
+        role1_.name as name2_15_1_ 
+    from
+        user_roles roles0_ 
+    inner join
+        roles role1_ 
+            on roles0_.role_id=role1_.id 
+    where
+        roles0_.user_id=?
+2025-11-26 12:35:03 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:35:03 - c.v.c.s.CustomUserDetailsService - User 'admin' loaded successfully with roles: [ADMIN, POWER_USER] , enable : true
+2025-11-26 12:35:03 - c.vam.cco.controller.LoginController - LoginController::postLogin::start = admin
+2025-11-26 12:35:03 - c.vam.cco.controller.LoginController - LoginController::postLogin::userRole = ROLE_ADMIN, ROLE_POWER_USER
+2025-11-26 12:35:08 - c.vam.cco.controller.RoleController - Fetching all roles
+2025-11-26 12:35:08 - org.hibernate.SQL - 
+    select
+        role0_.id as id1_15_,
+        role0_.name as name2_15_ 
+    from
+        roles role0_
+2025-11-26 12:35:08 - c.vam.cco.controller.RoleController - Total roles found: 2
+2025-11-26 12:35:16 - c.vam.cco.controller.UserController - UserController::showUsers::start
+2025-11-26 12:35:16 - c.v.c.services.impl.UserServiceImpl - UserServiceImpl::findAll:start
+2025-11-26 12:35:16 - org.hibernate.SQL - 
+    select
+        user0_.id as col_0_0_,
+        user0_.username as col_1_0_,
+        user0_.password as col_2_0_,
+        role2_.name as col_3_0_,
+        role2_.id as col_4_0_ 
+    from
+        users user0_ 
+    inner join
+        user_roles roles1_ 
+            on user0_.id=roles1_.user_id 
+    inner join
+        roles role2_ 
+            on roles1_.role_id=role2_.id 
+    order by
+        user0_.username
+2025-11-26 12:35:16 - c.v.c.services.impl.UserServiceImpl - Total users found: 2
+2025-11-26 12:35:16 - c.v.c.services.impl.UserServiceImpl - UserServiceImpl::findAll:end
+2025-11-26 12:35:16 - c.vam.cco.controller.UserController - UserController::showUsers::end
+2025-11-26 12:35:32 - c.v.cco.controller.LabelsController - Fetching labels with pagination. Page: 1, Size: 10
+2025-11-26 12:35:32 - c.v.c.s.impl.LabelsServiceImpl - Fetching labels with pagination: Page request [number: 0, size 10, sort: UNSORTED]
+2025-11-26 12:35:32 - org.hibernate.SQL - 
+    select
+        labels0_.label_id as label_id1_10_,
+        labels0_.created_by as created_2_10_,
+        labels0_.created_date as created_3_10_,
+        labels0_.label_name as label_na4_10_,
+        labels0_.label_type as label_ty5_10_,
+        labels0_.modified_by as modified6_10_,
+        labels0_.modified_date as modified7_10_,
+        labels0_.order_no as order_no8_10_ 
+    from
+        labels labels0_ limit ?
+2025-11-26 12:35:32 - c.v.cco.controller.LabelsController - Total labels found: 0
+2025-11-26 12:35:34 - c.v.cco.controller.LabelsController - Showing add label form
+2025-11-26 12:35:34 - c.v.c.s.impl.LabelsServiceImpl - LabelsServiceImpl::getMaxOrderNo::start
+2025-11-26 12:35:34 - org.hibernate.SQL - 
+    select
+        max(order_no) 
+    from
+        labels
+2025-11-26 12:35:34 - c.v.c.s.impl.LabelsServiceImpl - LabelsServiceImpl::getMaxOrderNo::maxOrderNo = 1
+2025-11-26 12:35:34 - c.v.c.s.impl.LabelsServiceImpl - LabelsServiceImpl::getMaxOrderNo::end
+2025-11-26 12:36:15 - c.v.c.controller.PortfolioController - PortfolioController::listPortfolios::start
+2025-11-26 12:36:15 - c.v.c.s.impl.PortfolioServiceImpl - Fetching all portfolios
+2025-11-26 12:36:15 - org.hibernate.SQL - 
+    select
+        distinct portfolio0_.id as col_0_0_,
+        portfolio0_.portfolio_number as col_1_0_,
+        portfolio0_.name as col_2_0_,
+        portfolio0_.active as col_3_0_,
+        portfolio0_.portfolio_leader as col_4_0_,
+        employee1_.name as col_5_0_,
+        portfolio0_.portfolio_hr as col_6_0_,
+        employee2_.name as col_7_0_,
+        portfolio0_.description as col_8_0_ 
+    from
+        portfolio portfolio0_ 
+    inner join
+        employee employee1_ 
+            on (
+                portfolio0_.portfolio_leader=employee1_.employee_id
+            ) 
+    inner join
+        employee employee2_ 
+            on (
+                portfolio0_.portfolio_hr=employee2_.employee_id
+            ) 
+    order by
+        portfolio0_.name limit ?
+2025-11-26 12:36:15 - c.v.c.controller.PortfolioController - PortfolioController::listPortfolios::end
+2025-11-26 12:36:16 - c.v.c.controller.PortfolioController - PortfolioController::showAddForm::start
+2025-11-26 12:36:16 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::start
+2025-11-26 12:36:16 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::bigInt = 21796185748409745926528216649005252812022527873854351453012538240467458143795
+2025-11-26 12:36:16 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::id = 7458143795
+2025-11-26 12:36:16 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::end
+2025-11-26 12:36:16 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders start
+2025-11-26 12:36:16 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders designations = [Executive Vice President, Senior Vice President, Vice President, Associate Vice President]
+2025-11-26 12:36:16 - org.hibernate.SQL - 
+    select
+        distinct employee0_.employee_id as col_0_0_,
+        employee0_.name as col_1_0_ 
+    from
+        employee employee0_ 
+    inner join
+        employee_designation employeede1_ 
+            on (
+                employee0_.employee_id=employeede1_.employee_id
+            ) 
+    inner join
+        designation designatio2_ 
+            on (
+                employeede1_.designation_id=designatio2_.designation_id
+            ) 
+    where
+        designatio2_.designation_name in (
+            ? , ? , ? , ?
+        ) 
+    order by
+        employee0_.name
+2025-11-26 12:36:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Executive Vice President]
+2025-11-26 12:36:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Senior Vice President]
+2025-11-26 12:36:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [Vice President]
+2025-11-26 12:36:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Associate Vice President]
+2025-11-26 12:36:16 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders size = 0
+2025-11-26 12:36:16 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders end
+2025-11-26 12:36:16 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio HRs start
+2025-11-26 12:36:16 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio hrDesignations = [HR, HR Manager, HR Executive]
+2025-11-26 12:36:16 - org.hibernate.SQL - 
+    select
+        distinct employee0_.employee_id as col_0_0_,
+        employee0_.name as col_1_0_ 
+    from
+        employee employee0_ 
+    inner join
+        employee_designation employeede1_ 
+            on (
+                employee0_.employee_id=employeede1_.employee_id
+            ) 
+    inner join
+        designation designatio2_ 
+            on (
+                employeede1_.designation_id=designatio2_.designation_id
+            ) 
+    where
+        designatio2_.designation_name in (
+            ? , ? , ?
+        ) 
+    order by
+        employee0_.name
+2025-11-26 12:36:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [HR]
+2025-11-26 12:36:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [HR Manager]
+2025-11-26 12:36:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [HR Executive]
+2025-11-26 12:36:16 - c.v.c.s.impl.PortfolioServiceImpl - Found 0 HR employees for portfolios
+2025-11-26 12:36:16 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio HRs end
+2025-11-26 12:36:16 - c.v.c.controller.PortfolioController - PortfolioController::showAddForm::end
+2025-11-26 12:38:04 - c.v.c.controller.PortfolioController - PortfolioController::listPortfolios::start
+2025-11-26 12:38:04 - c.v.c.s.impl.PortfolioServiceImpl - Fetching all portfolios
+2025-11-26 12:38:04 - org.hibernate.SQL - 
+    select
+        distinct portfolio0_.id as col_0_0_,
+        portfolio0_.portfolio_number as col_1_0_,
+        portfolio0_.name as col_2_0_,
+        portfolio0_.active as col_3_0_,
+        portfolio0_.portfolio_leader as col_4_0_,
+        employee1_.name as col_5_0_,
+        portfolio0_.portfolio_hr as col_6_0_,
+        employee2_.name as col_7_0_,
+        portfolio0_.description as col_8_0_ 
+    from
+        portfolio portfolio0_ 
+    inner join
+        employee employee1_ 
+            on (
+                portfolio0_.portfolio_leader=employee1_.employee_id
+            ) 
+    inner join
+        employee employee2_ 
+            on (
+                portfolio0_.portfolio_hr=employee2_.employee_id
+            ) 
+    order by
+        portfolio0_.name limit ?
+2025-11-26 12:38:04 - c.v.c.controller.PortfolioController - PortfolioController::listPortfolios::end
+2025-11-26 12:38:06 - c.v.c.controller.PortfolioController - PortfolioController::showAddForm::start
+2025-11-26 12:38:06 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::start
+2025-11-26 12:38:06 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::bigInt = 23241459687015313083799612483883523087293728225002672476130174311817111810145
+2025-11-26 12:38:06 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::id = 7111810145
+2025-11-26 12:38:06 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::end
+2025-11-26 12:38:06 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders start
+2025-11-26 12:38:06 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders designations = [Executive Vice President, Senior Vice President, Vice President, Associate Vice President]
+2025-11-26 12:38:06 - org.hibernate.SQL - 
+    select
+        distinct employee0_.employee_id as col_0_0_,
+        employee0_.name as col_1_0_ 
+    from
+        employee employee0_ 
+    inner join
+        employee_designation employeede1_ 
+            on (
+                employee0_.employee_id=employeede1_.employee_id
+            ) 
+    inner join
+        designation designatio2_ 
+            on (
+                employeede1_.designation_id=designatio2_.designation_id
+            ) 
+    where
+        designatio2_.designation_name in (
+            ? , ? , ? , ?
+        ) 
+    order by
+        employee0_.name
+2025-11-26 12:38:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Executive Vice President]
+2025-11-26 12:38:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Senior Vice President]
+2025-11-26 12:38:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [Vice President]
+2025-11-26 12:38:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Associate Vice President]
+2025-11-26 12:38:06 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders size = 0
+2025-11-26 12:38:06 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders end
+2025-11-26 12:38:06 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio HRs start
+2025-11-26 12:38:06 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio hrDesignations = [HR, HR Manager, HR Executive]
+2025-11-26 12:38:06 - org.hibernate.SQL - 
+    select
+        distinct employee0_.employee_id as col_0_0_,
+        employee0_.name as col_1_0_ 
+    from
+        employee employee0_ 
+    inner join
+        employee_designation employeede1_ 
+            on (
+                employee0_.employee_id=employeede1_.employee_id
+            ) 
+    inner join
+        designation designatio2_ 
+            on (
+                employeede1_.designation_id=designatio2_.designation_id
+            ) 
+    where
+        designatio2_.designation_name in (
+            ? , ? , ?
+        ) 
+    order by
+        employee0_.name
+2025-11-26 12:38:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [HR]
+2025-11-26 12:38:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [HR Manager]
+2025-11-26 12:38:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [HR Executive]
+2025-11-26 12:38:06 - c.v.c.s.impl.PortfolioServiceImpl - Found 0 HR employees for portfolios
+2025-11-26 12:38:06 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio HRs end
+2025-11-26 12:38:06 - c.v.c.controller.PortfolioController - PortfolioController::showAddForm::end
+2025-11-26 12:41:11 - c.v.c.c.DesignationController - Fetching all designations
+2025-11-26 12:41:11 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:41:55 - c.v.cco.controller.LabelsController - Fetching labels with pagination. Page: 1, Size: 10
+2025-11-26 12:41:55 - c.v.c.s.impl.LabelsServiceImpl - Fetching labels with pagination: Page request [number: 0, size 10, sort: UNSORTED]
+2025-11-26 12:41:55 - org.hibernate.SQL - 
+    select
+        labels0_.label_id as label_id1_10_,
+        labels0_.created_by as created_2_10_,
+        labels0_.created_date as created_3_10_,
+        labels0_.label_name as label_na4_10_,
+        labels0_.label_type as label_ty5_10_,
+        labels0_.modified_by as modified6_10_,
+        labels0_.modified_date as modified7_10_,
+        labels0_.order_no as order_no8_10_ 
+    from
+        labels labels0_ limit ?
+2025-11-26 12:41:55 - c.v.cco.controller.LabelsController - Total labels found: 0
+2025-11-26 12:41:56 - c.v.cco.controller.LabelsController - Showing add label form
+2025-11-26 12:41:56 - c.v.c.s.impl.LabelsServiceImpl - LabelsServiceImpl::getMaxOrderNo::start
+2025-11-26 12:41:56 - org.hibernate.SQL - 
+    select
+        max(order_no) 
+    from
+        labels
+2025-11-26 12:41:56 - c.v.c.s.impl.LabelsServiceImpl - LabelsServiceImpl::getMaxOrderNo::maxOrderNo = 1
+2025-11-26 12:41:56 - c.v.c.s.impl.LabelsServiceImpl - LabelsServiceImpl::getMaxOrderNo::end
+2025-11-26 12:45:17 - c.v.c.c.EmpUpdateRequestController - EmpUpdateRequestController::showUserRequestsTo::Start::id: 1
+2025-11-26 12:45:17 - c.v.c.c.EmpUpdateRequestController - EmpUpdateRequestController::setUserRequestTo::start::id: 1, page: 1, size: 10, status: CREATED
+2025-11-26 12:45:17 - c.v.c.d.s.EmpUpdateRequestService - Fetching EmpUpdateRequests by employeeId: 1 and status: CREATED
+2025-11-26 12:45:17 - org.hibernate.SQL - 
+    select
+        distinct empupdater0_.request_number as col_0_0_,
+        empupdater0_.id as col_1_0_,
+        empupdater0_.request_by_id as col_2_0_,
+        empupdater0_.request_to_id as col_3_0_,
+        empupdater0_.employee_id as col_4_0_,
+        empupdater0_.start_date as col_5_0_,
+        empupdater0_.end_date as col_6_0_,
+        empupdater0_.comments as col_7_0_,
+        empupdater0_.status as col_8_0_,
+        employee2_.name as col_9_0_,
+        employee3_.name as col_10_0_,
+        employee1_.name as col_11_0_,
+        empupdater0_.request_type as col_12_0_ 
+    from
+        emp_update_request empupdater0_ 
+    inner join
+        employee employee1_ 
+            on (
+                empupdater0_.employee_id=employee1_.employee_id
+            ) 
+    inner join
+        employee employee2_ 
+            on (
+                empupdater0_.request_by_id=employee2_.employee_id
+            ) 
+    inner join
+        employee employee3_ 
+            on (
+                empupdater0_.request_to_id=employee3_.employee_id
+            ) 
+    where
+        empupdater0_.request_to_id=? 
+        and empupdater0_.status=? 
+    order by
+        empupdater0_.start_date DESC limit ?
+2025-11-26 12:45:17 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:45:17 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [CREATED]
+2025-11-26 12:45:17 - c.v.c.c.EmpUpdateRequestController - EmpUpdateRequestController::setUserRequestTo::end
+2025-11-26 12:45:17 - c.v.c.c.EmpUpdateRequestController - EmpUpdateRequestController::setUserRequestTo::start::id: 1, page: 1, size: 10, status: IN_PROGRESS
+2025-11-26 12:45:17 - c.v.c.d.s.EmpUpdateRequestService - Fetching EmpUpdateRequests by employeeId: 1 and status: IN_PROGRESS
+2025-11-26 12:45:17 - org.hibernate.SQL - 
+    select
+        distinct empupdater0_.request_number as col_0_0_,
+        empupdater0_.id as col_1_0_,
+        empupdater0_.request_by_id as col_2_0_,
+        empupdater0_.request_to_id as col_3_0_,
+        empupdater0_.employee_id as col_4_0_,
+        empupdater0_.start_date as col_5_0_,
+        empupdater0_.end_date as col_6_0_,
+        empupdater0_.comments as col_7_0_,
+        empupdater0_.status as col_8_0_,
+        employee2_.name as col_9_0_,
+        employee3_.name as col_10_0_,
+        employee1_.name as col_11_0_,
+        empupdater0_.request_type as col_12_0_ 
+    from
+        emp_update_request empupdater0_ 
+    inner join
+        employee employee1_ 
+            on (
+                empupdater0_.employee_id=employee1_.employee_id
+            ) 
+    inner join
+        employee employee2_ 
+            on (
+                empupdater0_.request_by_id=employee2_.employee_id
+            ) 
+    inner join
+        employee employee3_ 
+            on (
+                empupdater0_.request_to_id=employee3_.employee_id
+            ) 
+    where
+        empupdater0_.request_to_id=? 
+        and empupdater0_.status=? 
+    order by
+        empupdater0_.start_date DESC limit ?
+2025-11-26 12:45:17 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:45:17 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [IN_PROGRESS]
+2025-11-26 12:45:17 - c.v.c.c.EmpUpdateRequestController - EmpUpdateRequestController::setUserRequestTo::end
+2025-11-26 12:45:17 - c.v.c.c.EmpUpdateRequestController - EmpUpdateRequestController::setUserRequestTo::start::id: 1, page: 1, size: 10, status: COMPLETED
+2025-11-26 12:45:17 - c.v.c.d.s.EmpUpdateRequestService - Fetching EmpUpdateRequests by employeeId: 1 and status: COMPLETED
+2025-11-26 12:45:17 - org.hibernate.SQL - 
+    select
+        distinct empupdater0_.request_number as col_0_0_,
+        empupdater0_.id as col_1_0_,
+        empupdater0_.request_by_id as col_2_0_,
+        empupdater0_.request_to_id as col_3_0_,
+        empupdater0_.employee_id as col_4_0_,
+        empupdater0_.start_date as col_5_0_,
+        empupdater0_.end_date as col_6_0_,
+        empupdater0_.comments as col_7_0_,
+        empupdater0_.status as col_8_0_,
+        employee2_.name as col_9_0_,
+        employee3_.name as col_10_0_,
+        employee1_.name as col_11_0_,
+        empupdater0_.request_type as col_12_0_ 
+    from
+        emp_update_request empupdater0_ 
+    inner join
+        employee employee1_ 
+            on (
+                empupdater0_.employee_id=employee1_.employee_id
+            ) 
+    inner join
+        employee employee2_ 
+            on (
+                empupdater0_.request_by_id=employee2_.employee_id
+            ) 
+    inner join
+        employee employee3_ 
+            on (
+                empupdater0_.request_to_id=employee3_.employee_id
+            ) 
+    where
+        empupdater0_.request_to_id=? 
+        and empupdater0_.status=? 
+    order by
+        empupdater0_.start_date DESC limit ?
+2025-11-26 12:45:17 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:45:17 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [COMPLETED]
+2025-11-26 12:45:17 - c.v.c.c.EmpUpdateRequestController - EmpUpdateRequestController::setUserRequestTo::end
+2025-11-26 12:45:17 - c.v.c.c.EmpUpdateRequestController - EmpUpdateRequestController::listEmpUpdateRequests::end
+2025-11-26 12:45:21 - c.v.c.controller.EmployeeController - Fetching all employees (paginated)
+2025-11-26 12:45:21 - org.hibernate.SQL - 
+    select
+        employee0_.employee_id as employee1_3_,
+        employee0_.attrition_risk as attritio2_3_,
+        employee0_.created_by as created_3_3_,
+        employee0_.created_date as created_4_3_,
+        employee0_.ctc as ctc5_3_,
+        employee0_.current_skill as current_6_3_,
+        employee0_.designation_id as designat7_3_,
+        employee0_.doj as doj8_3_,
+        employee0_.email_id as email_id9_3_,
+        employee0_.final_status as final_s10_3_,
+        employee0_.grade_id as grade_i11_3_,
+        employee0_.modified_by as modifie12_3_,
+        employee0_.modified_date as modifie13_3_,
+        employee0_.name as name14_3_,
+        employee0_.password as passwor15_3_,
+        employee0_.resignation_date as resigna16_3_,
+        employee0_.skill_data_fromld as skill_d17_3_,
+        employee0_.status as status18_3_,
+        employee0_.status_with_days as status_19_3_,
+        employee0_.time_frame_in_months as time_fr20_3_,
+        employee0_.todo as todo21_3_,
+        employee0_.total_exp as total_e22_3_,
+        employee0_.vam_exp as vam_exp23_3_,
+        employee0_.vam_id as vam_id24_3_,
+        employee0_.year_one_hike as year_on25_3_,
+        employee0_.year_two_hike as year_tw26_3_ 
+    from
+        employee employee0_ limit ?
+2025-11-26 12:45:26 - c.v.c.controller.EmployeeController - Showing create employee form start
+2025-11-26 12:45:26 - org.hibernate.SQL - 
+    select
+        grade0_.grade_id as grade_id1_9_,
+        grade0_.created_by as created_2_9_,
+        grade0_.created_date as created_3_9_,
+        grade0_.grade_name as grade_na4_9_,
+        grade0_.modified_by as modified5_9_,
+        grade0_.modified_date as modified6_9_ 
+    from
+        grade grade0_
+2025-11-26 12:45:26 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:45:26 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:45:26 - org.hibernate.SQL - 
+    select
+        grade0_.grade_id as grade_id1_9_,
+        grade0_.created_by as created_2_9_,
+        grade0_.created_date as created_3_9_,
+        grade0_.grade_name as grade_na4_9_,
+        grade0_.modified_by as modified5_9_,
+        grade0_.modified_date as modified6_9_ 
+    from
+        grade grade0_
+2025-11-26 12:45:26 - c.v.c.controller.EmployeeController - Showing create employee form end
+2025-11-26 12:45:31 - c.v.c.controller.EmployeeController - Showing edit form for employee id: 1
+2025-11-26 12:45:31 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::start id: 1
+2025-11-26 12:45:31 - c.v.c.s.impl.EmployeeServiceImpl - Finding Employee by id: 1
+2025-11-26 12:45:31 - org.hibernate.SQL - 
+    select
+        employee0_.employee_id as employee1_3_0_,
+        employee0_.attrition_risk as attritio2_3_0_,
+        employee0_.created_by as created_3_3_0_,
+        employee0_.created_date as created_4_3_0_,
+        employee0_.ctc as ctc5_3_0_,
+        employee0_.current_skill as current_6_3_0_,
+        employee0_.designation_id as designat7_3_0_,
+        employee0_.doj as doj8_3_0_,
+        employee0_.email_id as email_id9_3_0_,
+        employee0_.final_status as final_s10_3_0_,
+        employee0_.grade_id as grade_i11_3_0_,
+        employee0_.modified_by as modifie12_3_0_,
+        employee0_.modified_date as modifie13_3_0_,
+        employee0_.name as name14_3_0_,
+        employee0_.password as passwor15_3_0_,
+        employee0_.resignation_date as resigna16_3_0_,
+        employee0_.skill_data_fromld as skill_d17_3_0_,
+        employee0_.status as status18_3_0_,
+        employee0_.status_with_days as status_19_3_0_,
+        employee0_.time_frame_in_months as time_fr20_3_0_,
+        employee0_.todo as todo21_3_0_,
+        employee0_.total_exp as total_e22_3_0_,
+        employee0_.vam_exp as vam_exp23_3_0_,
+        employee0_.vam_id as vam_id24_3_0_,
+        employee0_.year_one_hike as year_on25_3_0_,
+        employee0_.year_two_hike as year_tw26_3_0_ 
+    from
+        employee employee0_ 
+    where
+        employee0_.employee_id=?
+2025-11-26 12:45:31 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:45:31 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employee: EmployeeModel [employeeId=1, vamId=100006, name=Nallaparaju Venkata Sai Bharat Raju, doj=2000-12-22, grade=null, gradeId=null, designation=null, designationId=null, ec=null, emailId=bharat.nallaparaju@valuemomentum.com, status=Active, skillDataFromLD=null, currentSkill=null, statusWithDays=, vamExp=24, totalExp=24, finalStatus=null, resignationDate=null, performanceAsPerPM=null, attritionRisk=null, ror=null, startDate=null, endDate=null, rorDate=null, rorComments=null, rorOnBoadingDate=null, ctc=null, todo=null, yearOneHike=null, yearTwoHike=null, timeFrameInMonths=null, createdBy=admin, modifiedBy=admin, createdDate=2025-11-24 00:00:00.0, modifiedDate=2025-11-24 00:00:00.0, grades=null, designations=null, statusList=null]
+2025-11-26 12:45:31 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeDesignation by id: 1
+2025-11-26 12:45:31 - org.hibernate.SQL - 
+    select
+        employeede0_.id as id1_6_,
+        employeede0_.comments as comments2_6_,
+        employeede0_.created_by as created_3_6_,
+        employeede0_.created_date as created_4_6_,
+        employeede0_.designation_id as designat5_6_,
+        employeede0_.employee_id as employee6_6_,
+        employeede0_.end_date as end_date7_6_,
+        employeede0_.modified_by as modified8_6_,
+        employeede0_.modified_date as modified9_6_,
+        employeede0_.start_date as start_d10_6_,
+        employeede0_.status as status11_6_ 
+    from
+        employee_designation employeede0_ 
+    where
+        employeede0_.employee_id=? 
+        and employeede0_.status='ACTIVE' 
+    order by
+        employeede0_.id desc limit ?
+2025-11-26 12:45:31 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:45:32 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeDesg: EmployeeDesignation [id=1, employeeId=1, designationId=9, startDate=2020-08-01, endDate=null, comments=]
+2025-11-26 12:45:32 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeGrade by id: 1
+2025-11-26 12:45:32 - org.hibernate.SQL - 
+    select
+        employeegr0_.id as id1_7_,
+        employeegr0_.comments as comments2_7_,
+        employeegr0_.created_by as created_3_7_,
+        employeegr0_.created_date as created_4_7_,
+        employeegr0_.employee_id as employee5_7_,
+        employeegr0_.end_date as end_date6_7_,
+        employeegr0_.grade_id as grade_id7_7_,
+        employeegr0_.modified_by as modified8_7_,
+        employeegr0_.modified_date as modified9_7_,
+        employeegr0_.start_date as start_d10_7_,
+        employeegr0_.status as status11_7_ 
+    from
+        employee_grade employeegr0_ 
+    where
+        employeegr0_.employee_id=? 
+    order by
+        employeegr0_.id desc limit ?
+2025-11-26 12:45:32 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:45:32 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeGrade: EmployeeGrade [id=1, employeeId=1, gradeId=18, startDate=2025-07-01, endDate=null, comments=]
+2025-11-26 12:45:32 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeCompensation by id: 1
+2025-11-26 12:45:32 - org.hibernate.SQL - 
+    select
+        employeeco0_.id as id1_5_,
+        employeeco0_.comments as comments2_5_,
+        employeeco0_.created_by as created_3_5_,
+        employeeco0_.created_date as created_4_5_,
+        employeeco0_.ctc as ctc5_5_,
+        employeeco0_.employee_id as employee6_5_,
+        employeeco0_.end_date as end_date7_5_,
+        employeeco0_.modified_by as modified8_5_,
+        employeeco0_.modified_date as modified9_5_,
+        employeeco0_.start_date as start_d10_5_,
+        employeeco0_.status as status11_5_ 
+    from
+        employee_compensation employeeco0_ 
+    where
+        employeeco0_.employee_id=? 
+        and employeeco0_.status='Active' 
+    order by
+        employeeco0_.start_date
+2025-11-26 12:45:32 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:45:32 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeCompensation: EmployeeCompensation [id=null, employeeId=null, ctc=null, startDate=null, endDate=null, comments=null, createdBy=admin, modifiedBy=admin, createdDate=2025-11-26 12:45:32.02, modifiedDate=2025-11-26 12:45:32.021, status=null, actionFrom=null, requestType=null, requestId=null, employeeCompensations=[EmployeeCompensation [id=null, employeeId=null, ctc=null, startDate=null, endDate=null, comments=null, createdBy=null, modifiedBy=null, createdDate=null, modifiedDate=null, status=null, actionFrom=null, requestType=null, requestId=null, employeeCompensations=null]]]
+2025-11-26 12:45:32 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeOffBoading by id: 1
+2025-11-26 12:45:32 - org.hibernate.SQL - 
+    select
+        employeeof0_.id as id1_8_,
+        employeeof0_.comments as comments2_8_,
+        employeeof0_.created_by as created_3_8_,
+        employeeof0_.created_date as created_4_8_,
+        employeeof0_.employee_id as employee5_8_,
+        employeeof0_.final_status as final_st6_8_,
+        employeeof0_.modified_by as modified7_8_,
+        employeeof0_.modified_date as modified8_8_,
+        employeeof0_.resignation_date as resignat9_8_,
+        employeeof0_.status as status10_8_ 
+    from
+        employee_off_boarding employeeof0_ 
+    where
+        employeeof0_.employee_id=? 
+    order by
+        employeeof0_.id DESC limit ?
+2025-11-26 12:45:32 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:45:32 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeOffBoarding: EmployeeOffBoading [id=null, employeeId=null, status=null, resignationDate=null, finalStatus=null, comments=null]
+2025-11-26 12:45:32 - org.hibernate.SQL - 
+    select
+        grade0_.grade_id as grade_id1_9_,
+        grade0_.created_by as created_2_9_,
+        grade0_.created_date as created_3_9_,
+        grade0_.grade_name as grade_na4_9_,
+        grade0_.modified_by as modified5_9_,
+        grade0_.modified_date as modified6_9_ 
+    from
+        grade grade0_
+2025-11-26 12:45:32 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:45:32 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::end 
+2025-11-26 12:46:08 - c.v.c.c.DesignationController - Fetching all designations
+2025-11-26 12:46:08 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:47:26 - c.v.c.c.DesignationController - Showing edit form for designation with id: 8
+2025-11-26 12:47:26 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_0_,
+        designatio0_.career_level as career_l2_1_0_,
+        designatio0_.created_by as created_3_1_0_,
+        designatio0_.created_date as created_4_1_0_,
+        designatio0_.designation_name as designat5_1_0_,
+        designatio0_.modified_by as modified6_1_0_,
+        designatio0_.modified_date as modified7_1_0_ 
+    from
+        designation designatio0_ 
+    where
+        designatio0_.designation_id=?
+2025-11-26 12:47:26 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [8]
+2025-11-26 12:47:33 - c.v.c.c.DesignationController - Saving or updating designation: Designation [designationId=8, designationName=Associate Director, careerLevel=null, createdBy=admin, modifiedBy=admin, createdDate=Mon Nov 24 00:00:00 IST 2025, modifiedDate=Mon Nov 24 00:00:00 IST 2025]
+2025-11-26 12:47:33 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_0_,
+        designatio0_.career_level as career_l2_1_0_,
+        designatio0_.created_by as created_3_1_0_,
+        designatio0_.created_date as created_4_1_0_,
+        designatio0_.designation_name as designat5_1_0_,
+        designatio0_.modified_by as modified6_1_0_,
+        designatio0_.modified_date as modified7_1_0_ 
+    from
+        designation designatio0_ 
+    where
+        designatio0_.designation_id=?
+2025-11-26 12:47:33 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [8]
+2025-11-26 12:47:33 - org.hibernate.SQL - 
+    update
+        designation 
+    set
+        career_level=?,
+        created_by=?,
+        created_date=?,
+        designation_name=?,
+        modified_by=?,
+        modified_date=? 
+    where
+        designation_id=?
+2025-11-26 12:47:33 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [null]
+2025-11-26 12:47:33 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [admin]
+2025-11-26 12:47:33 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [TIMESTAMP] - [Mon Nov 24 00:00:00 IST 2025]
+2025-11-26 12:47:33 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Associate Director]
+2025-11-26 12:47:33 - o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [admin]
+2025-11-26 12:47:33 - o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [TIMESTAMP] - [Mon Nov 24 00:00:00 IST 2025]
+2025-11-26 12:47:33 - o.h.type.descriptor.sql.BasicBinder - binding parameter [7] as [BIGINT] - [8]
+2025-11-26 12:47:33 - c.v.c.c.DesignationController - Fetching all designations
+2025-11-26 12:47:33 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:47:58 - c.v.c.c.DesignationController - Showing edit form for designation with id: 9
+2025-11-26 12:47:58 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_0_,
+        designatio0_.career_level as career_l2_1_0_,
+        designatio0_.created_by as created_3_1_0_,
+        designatio0_.created_date as created_4_1_0_,
+        designatio0_.designation_name as designat5_1_0_,
+        designatio0_.modified_by as modified6_1_0_,
+        designatio0_.modified_date as modified7_1_0_ 
+    from
+        designation designatio0_ 
+    where
+        designatio0_.designation_id=?
+2025-11-26 12:47:58 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [9]
+2025-11-26 12:48:06 - c.v.c.c.DesignationController - Saving or updating designation: Designation [designationId=9, designationName=Director, careerLevel=null, createdBy=admin, modifiedBy=admin, createdDate=Mon Nov 24 00:00:00 IST 2025, modifiedDate=Mon Nov 24 00:00:00 IST 2025]
+2025-11-26 12:48:06 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_0_,
+        designatio0_.career_level as career_l2_1_0_,
+        designatio0_.created_by as created_3_1_0_,
+        designatio0_.created_date as created_4_1_0_,
+        designatio0_.designation_name as designat5_1_0_,
+        designatio0_.modified_by as modified6_1_0_,
+        designatio0_.modified_date as modified7_1_0_ 
+    from
+        designation designatio0_ 
+    where
+        designatio0_.designation_id=?
+2025-11-26 12:48:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [9]
+2025-11-26 12:48:06 - org.hibernate.SQL - 
+    update
+        designation 
+    set
+        career_level=?,
+        created_by=?,
+        created_date=?,
+        designation_name=?,
+        modified_by=?,
+        modified_date=? 
+    where
+        designation_id=?
+2025-11-26 12:48:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [null]
+2025-11-26 12:48:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [admin]
+2025-11-26 12:48:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [TIMESTAMP] - [Mon Nov 24 00:00:00 IST 2025]
+2025-11-26 12:48:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Director]
+2025-11-26 12:48:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [admin]
+2025-11-26 12:48:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [TIMESTAMP] - [Mon Nov 24 00:00:00 IST 2025]
+2025-11-26 12:48:06 - o.h.type.descriptor.sql.BasicBinder - binding parameter [7] as [BIGINT] - [9]
+2025-11-26 12:48:06 - c.v.c.c.DesignationController - Fetching all designations
+2025-11-26 12:48:06 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:48:09 - c.v.c.c.DesignationController - Showing edit form for designation with id: 10
+2025-11-26 12:48:09 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_0_,
+        designatio0_.career_level as career_l2_1_0_,
+        designatio0_.created_by as created_3_1_0_,
+        designatio0_.created_date as created_4_1_0_,
+        designatio0_.designation_name as designat5_1_0_,
+        designatio0_.modified_by as modified6_1_0_,
+        designatio0_.modified_date as modified7_1_0_ 
+    from
+        designation designatio0_ 
+    where
+        designatio0_.designation_id=?
+2025-11-26 12:48:09 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [10]
+2025-11-26 12:48:22 - c.v.c.c.DesignationController - Saving or updating designation: Designation [designationId=10, designationName=Senior Director, careerLevel=null, createdBy=admin, modifiedBy=admin, createdDate=Mon Nov 24 00:00:00 IST 2025, modifiedDate=Mon Nov 24 00:00:00 IST 2025]
+2025-11-26 12:48:22 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_0_,
+        designatio0_.career_level as career_l2_1_0_,
+        designatio0_.created_by as created_3_1_0_,
+        designatio0_.created_date as created_4_1_0_,
+        designatio0_.designation_name as designat5_1_0_,
+        designatio0_.modified_by as modified6_1_0_,
+        designatio0_.modified_date as modified7_1_0_ 
+    from
+        designation designatio0_ 
+    where
+        designatio0_.designation_id=?
+2025-11-26 12:48:22 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [10]
+2025-11-26 12:48:22 - org.hibernate.SQL - 
+    update
+        designation 
+    set
+        career_level=?,
+        created_by=?,
+        created_date=?,
+        designation_name=?,
+        modified_by=?,
+        modified_date=? 
+    where
+        designation_id=?
+2025-11-26 12:48:22 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [null]
+2025-11-26 12:48:22 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [admin]
+2025-11-26 12:48:22 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [TIMESTAMP] - [Mon Nov 24 00:00:00 IST 2025]
+2025-11-26 12:48:22 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Senior Director]
+2025-11-26 12:48:22 - o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [admin]
+2025-11-26 12:48:22 - o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [TIMESTAMP] - [Mon Nov 24 00:00:00 IST 2025]
+2025-11-26 12:48:22 - o.h.type.descriptor.sql.BasicBinder - binding parameter [7] as [BIGINT] - [10]
+2025-11-26 12:48:22 - c.v.c.c.DesignationController - Fetching all designations
+2025-11-26 12:48:22 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:48:28 - c.v.c.c.DesignationController - Showing add designation form
+2025-11-26 12:48:28 - c.v.c.c.DesignationController - AccountController::generateAccountNumber::Authentication found: admin
+2025-11-26 12:48:41 - c.v.c.c.DesignationController - Saving or updating designation: Designation [designationId=null, designationName=Associate Vice President, careerLevel=null, createdBy=admin, modifiedBy=admin, createdDate=Wed Nov 26 00:00:00 IST 2025, modifiedDate=Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:48:41 - org.hibernate.SQL - 
+    insert 
+    into
+        designation
+        (career_level, created_by, created_date, designation_name, modified_by, modified_date) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-11-26 12:48:41 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [null]
+2025-11-26 12:48:41 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [admin]
+2025-11-26 12:48:41 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [TIMESTAMP] - [Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:48:41 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Associate Vice President]
+2025-11-26 12:48:41 - o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [admin]
+2025-11-26 12:48:41 - o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [TIMESTAMP] - [Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:48:41 - c.v.c.c.DesignationController - Fetching all designations
+2025-11-26 12:48:41 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:48:43 - c.v.c.c.DesignationController - Showing add designation form
+2025-11-26 12:48:43 - c.v.c.c.DesignationController - AccountController::generateAccountNumber::Authentication found: admin
+2025-11-26 12:48:47 - c.v.c.c.DesignationController - Saving or updating designation: Designation [designationId=null, designationName=Vice President, careerLevel=null, createdBy=admin, modifiedBy=admin, createdDate=Wed Nov 26 00:00:00 IST 2025, modifiedDate=Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:48:47 - org.hibernate.SQL - 
+    insert 
+    into
+        designation
+        (career_level, created_by, created_date, designation_name, modified_by, modified_date) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-11-26 12:48:47 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [null]
+2025-11-26 12:48:47 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [admin]
+2025-11-26 12:48:47 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [TIMESTAMP] - [Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:48:47 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Vice President]
+2025-11-26 12:48:47 - o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [admin]
+2025-11-26 12:48:47 - o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [TIMESTAMP] - [Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:48:47 - c.v.c.c.DesignationController - Fetching all designations
+2025-11-26 12:48:47 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:48:49 - c.v.c.c.DesignationController - Showing add designation form
+2025-11-26 12:48:49 - c.v.c.c.DesignationController - AccountController::generateAccountNumber::Authentication found: admin
+2025-11-26 12:48:56 - c.v.c.c.DesignationController - Saving or updating designation: Designation [designationId=null, designationName=Senior Vice President, careerLevel=null, createdBy=admin, modifiedBy=admin, createdDate=Wed Nov 26 00:00:00 IST 2025, modifiedDate=Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:48:56 - org.hibernate.SQL - 
+    insert 
+    into
+        designation
+        (career_level, created_by, created_date, designation_name, modified_by, modified_date) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-11-26 12:48:56 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [null]
+2025-11-26 12:48:56 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [admin]
+2025-11-26 12:48:56 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [TIMESTAMP] - [Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:48:56 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Senior Vice President]
+2025-11-26 12:48:56 - o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [admin]
+2025-11-26 12:48:56 - o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [TIMESTAMP] - [Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:48:56 - c.v.c.c.DesignationController - Fetching all designations
+2025-11-26 12:48:56 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:49:08 - c.v.c.c.DesignationController - Showing add designation form
+2025-11-26 12:49:08 - c.v.c.c.DesignationController - AccountController::generateAccountNumber::Authentication found: admin
+2025-11-26 12:49:16 - c.v.c.c.DesignationController - Saving or updating designation: Designation [designationId=null, designationName=Executive Vice President, careerLevel=null, createdBy=admin, modifiedBy=admin, createdDate=Wed Nov 26 00:00:00 IST 2025, modifiedDate=Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:49:16 - org.hibernate.SQL - 
+    insert 
+    into
+        designation
+        (career_level, created_by, created_date, designation_name, modified_by, modified_date) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-11-26 12:49:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [null]
+2025-11-26 12:49:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [admin]
+2025-11-26 12:49:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [TIMESTAMP] - [Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:49:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Executive Vice President]
+2025-11-26 12:49:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [admin]
+2025-11-26 12:49:16 - o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [TIMESTAMP] - [Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:49:16 - c.v.c.c.DesignationController - Fetching all designations
+2025-11-26 12:49:16 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:49:33 - c.v.c.c.DesignationController - Showing add designation form
+2025-11-26 12:49:33 - c.v.c.c.DesignationController - AccountController::generateAccountNumber::Authentication found: admin
+2025-11-26 12:49:39 - c.v.c.c.DesignationController - Saving or updating designation: Designation [designationId=null, designationName=Executive Management, careerLevel=null, createdBy=admin, modifiedBy=admin, createdDate=Wed Nov 26 00:00:00 IST 2025, modifiedDate=Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:49:39 - org.hibernate.SQL - 
+    insert 
+    into
+        designation
+        (career_level, created_by, created_date, designation_name, modified_by, modified_date) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-11-26 12:49:39 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [null]
+2025-11-26 12:49:39 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [admin]
+2025-11-26 12:49:39 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [TIMESTAMP] - [Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:49:39 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Executive Management]
+2025-11-26 12:49:39 - o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [admin]
+2025-11-26 12:49:39 - o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [TIMESTAMP] - [Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:49:39 - c.v.c.c.DesignationController - Fetching all designations
+2025-11-26 12:49:39 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:49:48 - c.v.c.controller.EmployeeController - Fetching all employees (paginated)
+2025-11-26 12:49:48 - org.hibernate.SQL - 
+    select
+        employee0_.employee_id as employee1_3_,
+        employee0_.attrition_risk as attritio2_3_,
+        employee0_.created_by as created_3_3_,
+        employee0_.created_date as created_4_3_,
+        employee0_.ctc as ctc5_3_,
+        employee0_.current_skill as current_6_3_,
+        employee0_.designation_id as designat7_3_,
+        employee0_.doj as doj8_3_,
+        employee0_.email_id as email_id9_3_,
+        employee0_.final_status as final_s10_3_,
+        employee0_.grade_id as grade_i11_3_,
+        employee0_.modified_by as modifie12_3_,
+        employee0_.modified_date as modifie13_3_,
+        employee0_.name as name14_3_,
+        employee0_.password as passwor15_3_,
+        employee0_.resignation_date as resigna16_3_,
+        employee0_.skill_data_fromld as skill_d17_3_,
+        employee0_.status as status18_3_,
+        employee0_.status_with_days as status_19_3_,
+        employee0_.time_frame_in_months as time_fr20_3_,
+        employee0_.todo as todo21_3_,
+        employee0_.total_exp as total_e22_3_,
+        employee0_.vam_exp as vam_exp23_3_,
+        employee0_.vam_id as vam_id24_3_,
+        employee0_.year_one_hike as year_on25_3_,
+        employee0_.year_two_hike as year_tw26_3_ 
+    from
+        employee employee0_ limit ?
+2025-11-26 12:49:49 - c.v.c.controller.EmployeeController - Showing edit form for employee id: 1
+2025-11-26 12:49:49 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::start id: 1
+2025-11-26 12:49:49 - c.v.c.s.impl.EmployeeServiceImpl - Finding Employee by id: 1
+2025-11-26 12:49:49 - org.hibernate.SQL - 
+    select
+        employee0_.employee_id as employee1_3_0_,
+        employee0_.attrition_risk as attritio2_3_0_,
+        employee0_.created_by as created_3_3_0_,
+        employee0_.created_date as created_4_3_0_,
+        employee0_.ctc as ctc5_3_0_,
+        employee0_.current_skill as current_6_3_0_,
+        employee0_.designation_id as designat7_3_0_,
+        employee0_.doj as doj8_3_0_,
+        employee0_.email_id as email_id9_3_0_,
+        employee0_.final_status as final_s10_3_0_,
+        employee0_.grade_id as grade_i11_3_0_,
+        employee0_.modified_by as modifie12_3_0_,
+        employee0_.modified_date as modifie13_3_0_,
+        employee0_.name as name14_3_0_,
+        employee0_.password as passwor15_3_0_,
+        employee0_.resignation_date as resigna16_3_0_,
+        employee0_.skill_data_fromld as skill_d17_3_0_,
+        employee0_.status as status18_3_0_,
+        employee0_.status_with_days as status_19_3_0_,
+        employee0_.time_frame_in_months as time_fr20_3_0_,
+        employee0_.todo as todo21_3_0_,
+        employee0_.total_exp as total_e22_3_0_,
+        employee0_.vam_exp as vam_exp23_3_0_,
+        employee0_.vam_id as vam_id24_3_0_,
+        employee0_.year_one_hike as year_on25_3_0_,
+        employee0_.year_two_hike as year_tw26_3_0_ 
+    from
+        employee employee0_ 
+    where
+        employee0_.employee_id=?
+2025-11-26 12:49:49 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:49 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employee: EmployeeModel [employeeId=1, vamId=100006, name=Nallaparaju Venkata Sai Bharat Raju, doj=2000-12-22, grade=null, gradeId=null, designation=null, designationId=null, ec=null, emailId=bharat.nallaparaju@valuemomentum.com, status=Active, skillDataFromLD=null, currentSkill=null, statusWithDays=, vamExp=24, totalExp=24, finalStatus=null, resignationDate=null, performanceAsPerPM=null, attritionRisk=null, ror=null, startDate=null, endDate=null, rorDate=null, rorComments=null, rorOnBoadingDate=null, ctc=null, todo=null, yearOneHike=null, yearTwoHike=null, timeFrameInMonths=null, createdBy=admin, modifiedBy=admin, createdDate=2025-11-24 00:00:00.0, modifiedDate=2025-11-24 00:00:00.0, grades=null, designations=null, statusList=null]
+2025-11-26 12:49:49 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeDesignation by id: 1
+2025-11-26 12:49:49 - org.hibernate.SQL - 
+    select
+        employeede0_.id as id1_6_,
+        employeede0_.comments as comments2_6_,
+        employeede0_.created_by as created_3_6_,
+        employeede0_.created_date as created_4_6_,
+        employeede0_.designation_id as designat5_6_,
+        employeede0_.employee_id as employee6_6_,
+        employeede0_.end_date as end_date7_6_,
+        employeede0_.modified_by as modified8_6_,
+        employeede0_.modified_date as modified9_6_,
+        employeede0_.start_date as start_d10_6_,
+        employeede0_.status as status11_6_ 
+    from
+        employee_designation employeede0_ 
+    where
+        employeede0_.employee_id=? 
+        and employeede0_.status='ACTIVE' 
+    order by
+        employeede0_.id desc limit ?
+2025-11-26 12:49:49 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:49 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeDesg: EmployeeDesignation [id=1, employeeId=1, designationId=9, startDate=2020-08-01, endDate=null, comments=]
+2025-11-26 12:49:49 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeGrade by id: 1
+2025-11-26 12:49:49 - org.hibernate.SQL - 
+    select
+        employeegr0_.id as id1_7_,
+        employeegr0_.comments as comments2_7_,
+        employeegr0_.created_by as created_3_7_,
+        employeegr0_.created_date as created_4_7_,
+        employeegr0_.employee_id as employee5_7_,
+        employeegr0_.end_date as end_date6_7_,
+        employeegr0_.grade_id as grade_id7_7_,
+        employeegr0_.modified_by as modified8_7_,
+        employeegr0_.modified_date as modified9_7_,
+        employeegr0_.start_date as start_d10_7_,
+        employeegr0_.status as status11_7_ 
+    from
+        employee_grade employeegr0_ 
+    where
+        employeegr0_.employee_id=? 
+    order by
+        employeegr0_.id desc limit ?
+2025-11-26 12:49:49 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:49 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeGrade: EmployeeGrade [id=1, employeeId=1, gradeId=18, startDate=2025-07-01, endDate=null, comments=]
+2025-11-26 12:49:49 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeCompensation by id: 1
+2025-11-26 12:49:49 - org.hibernate.SQL - 
+    select
+        employeeco0_.id as id1_5_,
+        employeeco0_.comments as comments2_5_,
+        employeeco0_.created_by as created_3_5_,
+        employeeco0_.created_date as created_4_5_,
+        employeeco0_.ctc as ctc5_5_,
+        employeeco0_.employee_id as employee6_5_,
+        employeeco0_.end_date as end_date7_5_,
+        employeeco0_.modified_by as modified8_5_,
+        employeeco0_.modified_date as modified9_5_,
+        employeeco0_.start_date as start_d10_5_,
+        employeeco0_.status as status11_5_ 
+    from
+        employee_compensation employeeco0_ 
+    where
+        employeeco0_.employee_id=? 
+        and employeeco0_.status='Active' 
+    order by
+        employeeco0_.start_date
+2025-11-26 12:49:49 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:49 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeCompensation: EmployeeCompensation [id=null, employeeId=null, ctc=null, startDate=null, endDate=null, comments=null, createdBy=admin, modifiedBy=admin, createdDate=2025-11-26 12:49:49.636, modifiedDate=2025-11-26 12:49:49.636, status=null, actionFrom=null, requestType=null, requestId=null, employeeCompensations=[EmployeeCompensation [id=null, employeeId=null, ctc=null, startDate=null, endDate=null, comments=null, createdBy=null, modifiedBy=null, createdDate=null, modifiedDate=null, status=null, actionFrom=null, requestType=null, requestId=null, employeeCompensations=null]]]
+2025-11-26 12:49:49 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeOffBoading by id: 1
+2025-11-26 12:49:49 - org.hibernate.SQL - 
+    select
+        employeeof0_.id as id1_8_,
+        employeeof0_.comments as comments2_8_,
+        employeeof0_.created_by as created_3_8_,
+        employeeof0_.created_date as created_4_8_,
+        employeeof0_.employee_id as employee5_8_,
+        employeeof0_.final_status as final_st6_8_,
+        employeeof0_.modified_by as modified7_8_,
+        employeeof0_.modified_date as modified8_8_,
+        employeeof0_.resignation_date as resignat9_8_,
+        employeeof0_.status as status10_8_ 
+    from
+        employee_off_boarding employeeof0_ 
+    where
+        employeeof0_.employee_id=? 
+    order by
+        employeeof0_.id DESC limit ?
+2025-11-26 12:49:49 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:49 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeOffBoarding: EmployeeOffBoading [id=null, employeeId=null, status=null, resignationDate=null, finalStatus=null, comments=null]
+2025-11-26 12:49:49 - org.hibernate.SQL - 
+    select
+        grade0_.grade_id as grade_id1_9_,
+        grade0_.created_by as created_2_9_,
+        grade0_.created_date as created_3_9_,
+        grade0_.grade_name as grade_na4_9_,
+        grade0_.modified_by as modified5_9_,
+        grade0_.modified_date as modified6_9_ 
+    from
+        grade grade0_
+2025-11-26 12:49:49 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:49:49 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::end 
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - Creating new employee: EmployeeDesignation [id=1, employeeId=1, designationId=12, startDate=Sat Aug 01 00:00:00 IST 2020, endDate=null, comments=]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Saving EmployeeDesignation: EmployeeDesignation [id=1, employeeId=1, designationId=12, startDate=Sat Aug 01 00:00:00 IST 2020, endDate=null, comments=]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - EmployeeServiceImpl::saveEmployeeGrade::requestId= null, requestType =  
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        employeede0_.id as id1_6_,
+        employeede0_.comments as comments2_6_,
+        employeede0_.created_by as created_3_6_,
+        employeede0_.created_date as created_4_6_,
+        employeede0_.designation_id as designat5_6_,
+        employeede0_.employee_id as employee6_6_,
+        employeede0_.end_date as end_date7_6_,
+        employeede0_.modified_by as modified8_6_,
+        employeede0_.modified_date as modified9_6_,
+        employeede0_.start_date as start_d10_6_,
+        employeede0_.status as status11_6_ 
+    from
+        employee_designation employeede0_ 
+    where
+        employeede0_.employee_id=? 
+        and employeede0_.status='ACTIVE' 
+    order by
+        employeede0_.id desc
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Existing designations found for employeeId: 1, size = 1
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    update
+        employee_designation 
+    set
+        comments=?,
+        created_by=?,
+        created_date=?,
+        designation_id=?,
+        employee_id=?,
+        end_date=?,
+        modified_by=?,
+        modified_date=?,
+        start_date=?,
+        status=? 
+    where
+        id=?
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - []
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [admin]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [TIMESTAMP] - [2025-11-24 00:00:00.0]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [BIGINT] - [9]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [BIGINT] - [1]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [DATE] - [Fri Jul 31 00:00:00 IST 2020]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [7] as [VARCHAR] - [admin]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [8] as [TIMESTAMP] - [Wed Nov 26 12:49:57 IST 2025]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [9] as [DATE] - [2020-08-01]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [10] as [VARCHAR] - [Inactive]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [11] as [BIGINT] - [1]
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    update
+        employee_designation 
+    set
+        comments=?,
+        created_by=?,
+        created_date=?,
+        designation_id=?,
+        employee_id=?,
+        end_date=?,
+        modified_by=?,
+        modified_date=?,
+        start_date=?,
+        status=? 
+    where
+        id=?
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - []
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [admin]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [TIMESTAMP] - [Mon Nov 24 00:00:00 IST 2025]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [BIGINT] - [12]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [BIGINT] - [1]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [DATE] - [null]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [7] as [VARCHAR] - [admin]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [8] as [TIMESTAMP] - [Wed Nov 26 00:00:00 IST 2025]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [9] as [DATE] - [Sat Aug 01 00:00:00 IST 2020]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [10] as [VARCHAR] - [Active]
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [11] as [BIGINT] - [1]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - EmployeeServiceImpl::saveEmployeeDesignation::employeeDesignation: EmployeeDesignation [id=1, employeeId=1, designationId=12, startDate=Sat Aug 01 00:00:00 IST 2020, endDate=null, comments=]
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::start id: 1
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Finding Employee by id: 1
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        employee0_.employee_id as employee1_3_0_,
+        employee0_.attrition_risk as attritio2_3_0_,
+        employee0_.created_by as created_3_3_0_,
+        employee0_.created_date as created_4_3_0_,
+        employee0_.ctc as ctc5_3_0_,
+        employee0_.current_skill as current_6_3_0_,
+        employee0_.designation_id as designat7_3_0_,
+        employee0_.doj as doj8_3_0_,
+        employee0_.email_id as email_id9_3_0_,
+        employee0_.final_status as final_s10_3_0_,
+        employee0_.grade_id as grade_i11_3_0_,
+        employee0_.modified_by as modifie12_3_0_,
+        employee0_.modified_date as modifie13_3_0_,
+        employee0_.name as name14_3_0_,
+        employee0_.password as passwor15_3_0_,
+        employee0_.resignation_date as resigna16_3_0_,
+        employee0_.skill_data_fromld as skill_d17_3_0_,
+        employee0_.status as status18_3_0_,
+        employee0_.status_with_days as status_19_3_0_,
+        employee0_.time_frame_in_months as time_fr20_3_0_,
+        employee0_.todo as todo21_3_0_,
+        employee0_.total_exp as total_e22_3_0_,
+        employee0_.vam_exp as vam_exp23_3_0_,
+        employee0_.vam_id as vam_id24_3_0_,
+        employee0_.year_one_hike as year_on25_3_0_,
+        employee0_.year_two_hike as year_tw26_3_0_ 
+    from
+        employee employee0_ 
+    where
+        employee0_.employee_id=?
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employee: EmployeeModel [employeeId=1, vamId=100006, name=Nallaparaju Venkata Sai Bharat Raju, doj=2000-12-22, grade=null, gradeId=null, designation=null, designationId=null, ec=null, emailId=bharat.nallaparaju@valuemomentum.com, status=Active, skillDataFromLD=null, currentSkill=null, statusWithDays=, vamExp=24, totalExp=24, finalStatus=null, resignationDate=null, performanceAsPerPM=null, attritionRisk=null, ror=null, startDate=null, endDate=null, rorDate=null, rorComments=null, rorOnBoadingDate=null, ctc=null, todo=null, yearOneHike=null, yearTwoHike=null, timeFrameInMonths=null, createdBy=admin, modifiedBy=admin, createdDate=2025-11-24 00:00:00.0, modifiedDate=2025-11-24 00:00:00.0, grades=null, designations=null, statusList=null]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeDesignation by id: 1
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        employeede0_.id as id1_6_,
+        employeede0_.comments as comments2_6_,
+        employeede0_.created_by as created_3_6_,
+        employeede0_.created_date as created_4_6_,
+        employeede0_.designation_id as designat5_6_,
+        employeede0_.employee_id as employee6_6_,
+        employeede0_.end_date as end_date7_6_,
+        employeede0_.modified_by as modified8_6_,
+        employeede0_.modified_date as modified9_6_,
+        employeede0_.start_date as start_d10_6_,
+        employeede0_.status as status11_6_ 
+    from
+        employee_designation employeede0_ 
+    where
+        employeede0_.employee_id=? 
+        and employeede0_.status='ACTIVE' 
+    order by
+        employeede0_.id desc limit ?
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeDesg: EmployeeDesignation [id=1, employeeId=1, designationId=12, startDate=Sat Aug 01 00:00:00 IST 2020, endDate=null, comments=]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeGrade by id: 1
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        employeegr0_.id as id1_7_,
+        employeegr0_.comments as comments2_7_,
+        employeegr0_.created_by as created_3_7_,
+        employeegr0_.created_date as created_4_7_,
+        employeegr0_.employee_id as employee5_7_,
+        employeegr0_.end_date as end_date6_7_,
+        employeegr0_.grade_id as grade_id7_7_,
+        employeegr0_.modified_by as modified8_7_,
+        employeegr0_.modified_date as modified9_7_,
+        employeegr0_.start_date as start_d10_7_,
+        employeegr0_.status as status11_7_ 
+    from
+        employee_grade employeegr0_ 
+    where
+        employeegr0_.employee_id=? 
+    order by
+        employeegr0_.id desc limit ?
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeGrade: EmployeeGrade [id=1, employeeId=1, gradeId=18, startDate=2025-07-01, endDate=null, comments=]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeCompensation by id: 1
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        employeeco0_.id as id1_5_,
+        employeeco0_.comments as comments2_5_,
+        employeeco0_.created_by as created_3_5_,
+        employeeco0_.created_date as created_4_5_,
+        employeeco0_.ctc as ctc5_5_,
+        employeeco0_.employee_id as employee6_5_,
+        employeeco0_.end_date as end_date7_5_,
+        employeeco0_.modified_by as modified8_5_,
+        employeeco0_.modified_date as modified9_5_,
+        employeeco0_.start_date as start_d10_5_,
+        employeeco0_.status as status11_5_ 
+    from
+        employee_compensation employeeco0_ 
+    where
+        employeeco0_.employee_id=? 
+        and employeeco0_.status='Active' 
+    order by
+        employeeco0_.start_date
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeCompensation: EmployeeCompensation [id=null, employeeId=null, ctc=null, startDate=null, endDate=null, comments=null, createdBy=admin, modifiedBy=admin, createdDate=2025-11-26 12:49:57.459, modifiedDate=2025-11-26 12:49:57.459, status=null, actionFrom=null, requestType=null, requestId=null, employeeCompensations=[EmployeeCompensation [id=null, employeeId=null, ctc=null, startDate=null, endDate=null, comments=null, createdBy=null, modifiedBy=null, createdDate=null, modifiedDate=null, status=null, actionFrom=null, requestType=null, requestId=null, employeeCompensations=null]]]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeOffBoading by id: 1
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        employeeof0_.id as id1_8_,
+        employeeof0_.comments as comments2_8_,
+        employeeof0_.created_by as created_3_8_,
+        employeeof0_.created_date as created_4_8_,
+        employeeof0_.employee_id as employee5_8_,
+        employeeof0_.final_status as final_st6_8_,
+        employeeof0_.modified_by as modified7_8_,
+        employeeof0_.modified_date as modified8_8_,
+        employeeof0_.resignation_date as resignat9_8_,
+        employeeof0_.status as status10_8_ 
+    from
+        employee_off_boarding employeeof0_ 
+    where
+        employeeof0_.employee_id=? 
+    order by
+        employeeof0_.id DESC limit ?
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeOffBoarding: EmployeeOffBoading [id=null, employeeId=null, status=null, resignationDate=null, finalStatus=null, comments=null]
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        grade0_.grade_id as grade_id1_9_,
+        grade0_.created_by as created_2_9_,
+        grade0_.created_date as created_3_9_,
+        grade0_.grade_name as grade_na4_9_,
+        grade0_.modified_by as modified5_9_,
+        grade0_.modified_date as modified6_9_ 
+    from
+        grade grade0_
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::end 
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::start id: 1
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Finding Employee by id: 1
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employee: EmployeeModel [employeeId=1, vamId=100006, name=Nallaparaju Venkata Sai Bharat Raju, doj=2000-12-22, grade=null, gradeId=null, designation=null, designationId=null, ec=null, emailId=bharat.nallaparaju@valuemomentum.com, status=Active, skillDataFromLD=null, currentSkill=null, statusWithDays=, vamExp=24, totalExp=24, finalStatus=null, resignationDate=null, performanceAsPerPM=null, attritionRisk=null, ror=null, startDate=null, endDate=null, rorDate=null, rorComments=null, rorOnBoadingDate=null, ctc=null, todo=null, yearOneHike=null, yearTwoHike=null, timeFrameInMonths=null, createdBy=admin, modifiedBy=admin, createdDate=2025-11-24 00:00:00.0, modifiedDate=2025-11-24 00:00:00.0, grades=null, designations=null, statusList=null]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeDesignation by id: 1
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        employeede0_.id as id1_6_,
+        employeede0_.comments as comments2_6_,
+        employeede0_.created_by as created_3_6_,
+        employeede0_.created_date as created_4_6_,
+        employeede0_.designation_id as designat5_6_,
+        employeede0_.employee_id as employee6_6_,
+        employeede0_.end_date as end_date7_6_,
+        employeede0_.modified_by as modified8_6_,
+        employeede0_.modified_date as modified9_6_,
+        employeede0_.start_date as start_d10_6_,
+        employeede0_.status as status11_6_ 
+    from
+        employee_designation employeede0_ 
+    where
+        employeede0_.employee_id=? 
+        and employeede0_.status='ACTIVE' 
+    order by
+        employeede0_.id desc limit ?
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeDesg: EmployeeDesignation [id=1, employeeId=1, designationId=12, startDate=Sat Aug 01 00:00:00 IST 2020, endDate=null, comments=]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeGrade by id: 1
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        employeegr0_.id as id1_7_,
+        employeegr0_.comments as comments2_7_,
+        employeegr0_.created_by as created_3_7_,
+        employeegr0_.created_date as created_4_7_,
+        employeegr0_.employee_id as employee5_7_,
+        employeegr0_.end_date as end_date6_7_,
+        employeegr0_.grade_id as grade_id7_7_,
+        employeegr0_.modified_by as modified8_7_,
+        employeegr0_.modified_date as modified9_7_,
+        employeegr0_.start_date as start_d10_7_,
+        employeegr0_.status as status11_7_ 
+    from
+        employee_grade employeegr0_ 
+    where
+        employeegr0_.employee_id=? 
+    order by
+        employeegr0_.id desc limit ?
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeGrade: EmployeeGrade [id=1, employeeId=1, gradeId=18, startDate=2025-07-01, endDate=null, comments=]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeCompensation by id: 1
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        employeeco0_.id as id1_5_,
+        employeeco0_.comments as comments2_5_,
+        employeeco0_.created_by as created_3_5_,
+        employeeco0_.created_date as created_4_5_,
+        employeeco0_.ctc as ctc5_5_,
+        employeeco0_.employee_id as employee6_5_,
+        employeeco0_.end_date as end_date7_5_,
+        employeeco0_.modified_by as modified8_5_,
+        employeeco0_.modified_date as modified9_5_,
+        employeeco0_.start_date as start_d10_5_,
+        employeeco0_.status as status11_5_ 
+    from
+        employee_compensation employeeco0_ 
+    where
+        employeeco0_.employee_id=? 
+        and employeeco0_.status='Active' 
+    order by
+        employeeco0_.start_date
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeCompensation: EmployeeCompensation [id=null, employeeId=null, ctc=null, startDate=null, endDate=null, comments=null, createdBy=admin, modifiedBy=admin, createdDate=2025-11-26 12:49:57.501, modifiedDate=2025-11-26 12:49:57.501, status=null, actionFrom=null, requestType=null, requestId=null, employeeCompensations=[EmployeeCompensation [id=null, employeeId=null, ctc=null, startDate=null, endDate=null, comments=null, createdBy=null, modifiedBy=null, createdDate=null, modifiedDate=null, status=null, actionFrom=null, requestType=null, requestId=null, employeeCompensations=null]]]
+2025-11-26 12:49:57 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeOffBoading by id: 1
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        employeeof0_.id as id1_8_,
+        employeeof0_.comments as comments2_8_,
+        employeeof0_.created_by as created_3_8_,
+        employeeof0_.created_date as created_4_8_,
+        employeeof0_.employee_id as employee5_8_,
+        employeeof0_.final_status as final_st6_8_,
+        employeeof0_.modified_by as modified7_8_,
+        employeeof0_.modified_date as modified8_8_,
+        employeeof0_.resignation_date as resignat9_8_,
+        employeeof0_.status as status10_8_ 
+    from
+        employee_off_boarding employeeof0_ 
+    where
+        employeeof0_.employee_id=? 
+    order by
+        employeeof0_.id DESC limit ?
+2025-11-26 12:49:57 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeOffBoarding: EmployeeOffBoading [id=null, employeeId=null, status=null, resignationDate=null, finalStatus=null, comments=null]
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        grade0_.grade_id as grade_id1_9_,
+        grade0_.created_by as created_2_9_,
+        grade0_.created_date as created_3_9_,
+        grade0_.grade_name as grade_na4_9_,
+        grade0_.modified_by as modified5_9_,
+        grade0_.modified_date as modified6_9_ 
+    from
+        grade grade0_
+2025-11-26 12:49:57 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:49:57 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::end 
+2025-11-26 12:50:06 - c.v.c.c.MapAccountsToPortfolioController - MapAccountsToPortfolioController::showPortfolios::start Page: 1, Size: 10
+2025-11-26 12:50:06 - c.v.c.s.impl.PortfolioServiceImpl - Fetching all portfolios
+2025-11-26 12:50:06 - org.hibernate.SQL - 
+    select
+        distinct portfolio0_.id as col_0_0_,
+        portfolio0_.portfolio_number as col_1_0_,
+        portfolio0_.name as col_2_0_,
+        portfolio0_.active as col_3_0_,
+        portfolio0_.portfolio_leader as col_4_0_,
+        employee1_.name as col_5_0_,
+        portfolio0_.portfolio_hr as col_6_0_,
+        employee2_.name as col_7_0_,
+        portfolio0_.description as col_8_0_ 
+    from
+        portfolio portfolio0_ 
+    inner join
+        employee employee1_ 
+            on (
+                portfolio0_.portfolio_leader=employee1_.employee_id
+            ) 
+    inner join
+        employee employee2_ 
+            on (
+                portfolio0_.portfolio_hr=employee2_.employee_id
+            ) 
+    order by
+        portfolio0_.name limit ?
+2025-11-26 12:50:06 - c.v.c.s.impl.AccountServiceImpl - Finding all accounts
+2025-11-26 12:50:06 - org.hibernate.SQL - 
+    select
+        account0_.account_id as account_1_0_,
+        account0_.acc_classification as acc_clas2_0_,
+        account0_.acc_created_date as acc_crea3_0_,
+        account0_.acc_end_date as acc_end_4_0_,
+        account0_.acc_name as acc_name5_0_,
+        account0_.acc_no as acc_no6_0_,
+        account0_.acc_start_date as acc_star7_0_,
+        account0_.acc_status as acc_stat8_0_,
+        account0_.acc_tier as acc_tier9_0_,
+        account0_.created_by as created10_0_,
+        account0_.created_date as created11_0_,
+        account0_.modified_by as modifie12_0_,
+        account0_.modified_date as modifie13_0_,
+        account0_.portfolio_id as portfol14_0_ 
+    from
+        account account0_
+2025-11-26 12:50:06 - c.v.c.c.MapAccountsToPortfolioController - MapAccountsToPortfolioController::showPortfolios::end
+2025-11-26 12:50:09 - c.v.c.controller.PortfolioController - PortfolioController::listPortfolios::start
+2025-11-26 12:50:09 - c.v.c.s.impl.PortfolioServiceImpl - Fetching all portfolios
+2025-11-26 12:50:09 - org.hibernate.SQL - 
+    select
+        distinct portfolio0_.id as col_0_0_,
+        portfolio0_.portfolio_number as col_1_0_,
+        portfolio0_.name as col_2_0_,
+        portfolio0_.active as col_3_0_,
+        portfolio0_.portfolio_leader as col_4_0_,
+        employee1_.name as col_5_0_,
+        portfolio0_.portfolio_hr as col_6_0_,
+        employee2_.name as col_7_0_,
+        portfolio0_.description as col_8_0_ 
+    from
+        portfolio portfolio0_ 
+    inner join
+        employee employee1_ 
+            on (
+                portfolio0_.portfolio_leader=employee1_.employee_id
+            ) 
+    inner join
+        employee employee2_ 
+            on (
+                portfolio0_.portfolio_hr=employee2_.employee_id
+            ) 
+    order by
+        portfolio0_.name limit ?
+2025-11-26 12:50:09 - c.v.c.controller.PortfolioController - PortfolioController::listPortfolios::end
+2025-11-26 12:50:10 - c.v.c.controller.PortfolioController - PortfolioController::showAddForm::start
+2025-11-26 12:50:10 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::start
+2025-11-26 12:50:10 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::bigInt = 25953583847100079785863915840910722262142764334881739255213124857124602536242
+2025-11-26 12:50:10 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::id = 4602536242
+2025-11-26 12:50:10 - com.vam.cco.util.IdGenerator - IdGenerator::generateAccountId::end
+2025-11-26 12:50:10 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders start
+2025-11-26 12:50:10 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders designations = [Executive Vice President, Senior Vice President, Vice President, Associate Vice President]
+2025-11-26 12:50:10 - org.hibernate.SQL - 
+    select
+        distinct employee0_.employee_id as col_0_0_,
+        employee0_.name as col_1_0_ 
+    from
+        employee employee0_ 
+    inner join
+        employee_designation employeede1_ 
+            on (
+                employee0_.employee_id=employeede1_.employee_id
+            ) 
+    inner join
+        designation designatio2_ 
+            on (
+                employeede1_.designation_id=designatio2_.designation_id
+            ) 
+    where
+        designatio2_.designation_name in (
+            ? , ? , ? , ?
+        ) 
+    order by
+        employee0_.name
+2025-11-26 12:50:10 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Executive Vice President]
+2025-11-26 12:50:10 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Senior Vice President]
+2025-11-26 12:50:10 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [Vice President]
+2025-11-26 12:50:10 - o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [Associate Vice President]
+2025-11-26 12:50:10 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders size = 1
+2025-11-26 12:50:10 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio leaders end
+2025-11-26 12:50:10 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio HRs start
+2025-11-26 12:50:10 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio hrDesignations = [HR, HR Manager, HR Executive]
+2025-11-26 12:50:10 - org.hibernate.SQL - 
+    select
+        distinct employee0_.employee_id as col_0_0_,
+        employee0_.name as col_1_0_ 
+    from
+        employee employee0_ 
+    inner join
+        employee_designation employeede1_ 
+            on (
+                employee0_.employee_id=employeede1_.employee_id
+            ) 
+    inner join
+        designation designatio2_ 
+            on (
+                employeede1_.designation_id=designatio2_.designation_id
+            ) 
+    where
+        designatio2_.designation_name in (
+            ? , ? , ?
+        ) 
+    order by
+        employee0_.name
+2025-11-26 12:50:10 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [HR]
+2025-11-26 12:50:10 - o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [HR Manager]
+2025-11-26 12:50:10 - o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [HR Executive]
+2025-11-26 12:50:10 - c.v.c.s.impl.PortfolioServiceImpl - Found 0 HR employees for portfolios
+2025-11-26 12:50:10 - c.v.c.s.impl.PortfolioServiceImpl - Fetching portfolio HRs end
+2025-11-26 12:50:10 - c.v.c.controller.PortfolioController - PortfolioController::showAddForm::end
+2025-11-26 12:51:23 - c.v.c.controller.EmployeeController - Fetching all employees (paginated)
+2025-11-26 12:51:23 - org.hibernate.SQL - 
+    select
+        employee0_.employee_id as employee1_3_,
+        employee0_.attrition_risk as attritio2_3_,
+        employee0_.created_by as created_3_3_,
+        employee0_.created_date as created_4_3_,
+        employee0_.ctc as ctc5_3_,
+        employee0_.current_skill as current_6_3_,
+        employee0_.designation_id as designat7_3_,
+        employee0_.doj as doj8_3_,
+        employee0_.email_id as email_id9_3_,
+        employee0_.final_status as final_s10_3_,
+        employee0_.grade_id as grade_i11_3_,
+        employee0_.modified_by as modifie12_3_,
+        employee0_.modified_date as modifie13_3_,
+        employee0_.name as name14_3_,
+        employee0_.password as passwor15_3_,
+        employee0_.resignation_date as resigna16_3_,
+        employee0_.skill_data_fromld as skill_d17_3_,
+        employee0_.status as status18_3_,
+        employee0_.status_with_days as status_19_3_,
+        employee0_.time_frame_in_months as time_fr20_3_,
+        employee0_.todo as todo21_3_,
+        employee0_.total_exp as total_e22_3_,
+        employee0_.vam_exp as vam_exp23_3_,
+        employee0_.vam_id as vam_id24_3_,
+        employee0_.year_one_hike as year_on25_3_,
+        employee0_.year_two_hike as year_tw26_3_ 
+    from
+        employee employee0_ limit ?
+2025-11-26 12:51:25 - c.v.c.controller.EmployeeController - Showing edit form for employee id: 1
+2025-11-26 12:51:25 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::start id: 1
+2025-11-26 12:51:25 - c.v.c.s.impl.EmployeeServiceImpl - Finding Employee by id: 1
+2025-11-26 12:51:25 - org.hibernate.SQL - 
+    select
+        employee0_.employee_id as employee1_3_0_,
+        employee0_.attrition_risk as attritio2_3_0_,
+        employee0_.created_by as created_3_3_0_,
+        employee0_.created_date as created_4_3_0_,
+        employee0_.ctc as ctc5_3_0_,
+        employee0_.current_skill as current_6_3_0_,
+        employee0_.designation_id as designat7_3_0_,
+        employee0_.doj as doj8_3_0_,
+        employee0_.email_id as email_id9_3_0_,
+        employee0_.final_status as final_s10_3_0_,
+        employee0_.grade_id as grade_i11_3_0_,
+        employee0_.modified_by as modifie12_3_0_,
+        employee0_.modified_date as modifie13_3_0_,
+        employee0_.name as name14_3_0_,
+        employee0_.password as passwor15_3_0_,
+        employee0_.resignation_date as resigna16_3_0_,
+        employee0_.skill_data_fromld as skill_d17_3_0_,
+        employee0_.status as status18_3_0_,
+        employee0_.status_with_days as status_19_3_0_,
+        employee0_.time_frame_in_months as time_fr20_3_0_,
+        employee0_.todo as todo21_3_0_,
+        employee0_.total_exp as total_e22_3_0_,
+        employee0_.vam_exp as vam_exp23_3_0_,
+        employee0_.vam_id as vam_id24_3_0_,
+        employee0_.year_one_hike as year_on25_3_0_,
+        employee0_.year_two_hike as year_tw26_3_0_ 
+    from
+        employee employee0_ 
+    where
+        employee0_.employee_id=?
+2025-11-26 12:51:25 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:51:25 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employee: EmployeeModel [employeeId=1, vamId=100006, name=Nallaparaju Venkata Sai Bharat Raju, doj=2000-12-22, grade=null, gradeId=null, designation=null, designationId=null, ec=null, emailId=bharat.nallaparaju@valuemomentum.com, status=Active, skillDataFromLD=null, currentSkill=null, statusWithDays=, vamExp=24, totalExp=24, finalStatus=null, resignationDate=null, performanceAsPerPM=null, attritionRisk=null, ror=null, startDate=null, endDate=null, rorDate=null, rorComments=null, rorOnBoadingDate=null, ctc=null, todo=null, yearOneHike=null, yearTwoHike=null, timeFrameInMonths=null, createdBy=admin, modifiedBy=admin, createdDate=2025-11-24 00:00:00.0, modifiedDate=2025-11-24 00:00:00.0, grades=null, designations=null, statusList=null]
+2025-11-26 12:51:25 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeDesignation by id: 1
+2025-11-26 12:51:25 - org.hibernate.SQL - 
+    select
+        employeede0_.id as id1_6_,
+        employeede0_.comments as comments2_6_,
+        employeede0_.created_by as created_3_6_,
+        employeede0_.created_date as created_4_6_,
+        employeede0_.designation_id as designat5_6_,
+        employeede0_.employee_id as employee6_6_,
+        employeede0_.end_date as end_date7_6_,
+        employeede0_.modified_by as modified8_6_,
+        employeede0_.modified_date as modified9_6_,
+        employeede0_.start_date as start_d10_6_,
+        employeede0_.status as status11_6_ 
+    from
+        employee_designation employeede0_ 
+    where
+        employeede0_.employee_id=? 
+        and employeede0_.status='ACTIVE' 
+    order by
+        employeede0_.id desc limit ?
+2025-11-26 12:51:25 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:51:25 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeDesg: EmployeeDesignation [id=1, employeeId=1, designationId=12, startDate=2020-08-01, endDate=null, comments=]
+2025-11-26 12:51:25 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeGrade by id: 1
+2025-11-26 12:51:25 - org.hibernate.SQL - 
+    select
+        employeegr0_.id as id1_7_,
+        employeegr0_.comments as comments2_7_,
+        employeegr0_.created_by as created_3_7_,
+        employeegr0_.created_date as created_4_7_,
+        employeegr0_.employee_id as employee5_7_,
+        employeegr0_.end_date as end_date6_7_,
+        employeegr0_.grade_id as grade_id7_7_,
+        employeegr0_.modified_by as modified8_7_,
+        employeegr0_.modified_date as modified9_7_,
+        employeegr0_.start_date as start_d10_7_,
+        employeegr0_.status as status11_7_ 
+    from
+        employee_grade employeegr0_ 
+    where
+        employeegr0_.employee_id=? 
+    order by
+        employeegr0_.id desc limit ?
+2025-11-26 12:51:25 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:51:25 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeGrade: EmployeeGrade [id=1, employeeId=1, gradeId=18, startDate=2025-07-01, endDate=null, comments=]
+2025-11-26 12:51:25 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeCompensation by id: 1
+2025-11-26 12:51:25 - org.hibernate.SQL - 
+    select
+        employeeco0_.id as id1_5_,
+        employeeco0_.comments as comments2_5_,
+        employeeco0_.created_by as created_3_5_,
+        employeeco0_.created_date as created_4_5_,
+        employeeco0_.ctc as ctc5_5_,
+        employeeco0_.employee_id as employee6_5_,
+        employeeco0_.end_date as end_date7_5_,
+        employeeco0_.modified_by as modified8_5_,
+        employeeco0_.modified_date as modified9_5_,
+        employeeco0_.start_date as start_d10_5_,
+        employeeco0_.status as status11_5_ 
+    from
+        employee_compensation employeeco0_ 
+    where
+        employeeco0_.employee_id=? 
+        and employeeco0_.status='Active' 
+    order by
+        employeeco0_.start_date
+2025-11-26 12:51:25 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:51:25 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeCompensation: EmployeeCompensation [id=null, employeeId=null, ctc=null, startDate=null, endDate=null, comments=null, createdBy=admin, modifiedBy=admin, createdDate=2025-11-26 12:51:25.286, modifiedDate=2025-11-26 12:51:25.286, status=null, actionFrom=null, requestType=null, requestId=null, employeeCompensations=[EmployeeCompensation [id=null, employeeId=null, ctc=null, startDate=null, endDate=null, comments=null, createdBy=null, modifiedBy=null, createdDate=null, modifiedDate=null, status=null, actionFrom=null, requestType=null, requestId=null, employeeCompensations=null]]]
+2025-11-26 12:51:25 - c.v.c.s.impl.EmployeeServiceImpl - Finding EmployeeOffBoading by id: 1
+2025-11-26 12:51:25 - org.hibernate.SQL - 
+    select
+        employeeof0_.id as id1_8_,
+        employeeof0_.comments as comments2_8_,
+        employeeof0_.created_by as created_3_8_,
+        employeeof0_.created_date as created_4_8_,
+        employeeof0_.employee_id as employee5_8_,
+        employeeof0_.final_status as final_st6_8_,
+        employeeof0_.modified_by as modified7_8_,
+        employeeof0_.modified_date as modified8_8_,
+        employeeof0_.resignation_date as resignat9_8_,
+        employeeof0_.status as status10_8_ 
+    from
+        employee_off_boarding employeeof0_ 
+    where
+        employeeof0_.employee_id=? 
+    order by
+        employeeof0_.id DESC limit ?
+2025-11-26 12:51:25 - o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2025-11-26 12:51:25 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::employeeOffBoarding: EmployeeOffBoading [id=null, employeeId=null, status=null, resignationDate=null, finalStatus=null, comments=null]
+2025-11-26 12:51:25 - org.hibernate.SQL - 
+    select
+        grade0_.grade_id as grade_id1_9_,
+        grade0_.created_by as created_2_9_,
+        grade0_.created_date as created_3_9_,
+        grade0_.grade_name as grade_na4_9_,
+        grade0_.modified_by as modified5_9_,
+        grade0_.modified_date as modified6_9_ 
+    from
+        grade grade0_
+2025-11-26 12:51:25 - org.hibernate.SQL - 
+    select
+        designatio0_.designation_id as designat1_1_,
+        designatio0_.career_level as career_l2_1_,
+        designatio0_.created_by as created_3_1_,
+        designatio0_.created_date as created_4_1_,
+        designatio0_.designation_name as designat5_1_,
+        designatio0_.modified_by as modified6_1_,
+        designatio0_.modified_date as modified7_1_ 
+    from
+        designation designatio0_ 
+    order by
+        designatio0_.designation_name asc
+2025-11-26 12:51:25 - c.v.c.controller.EmployeeController - EmployeeController::setEmployeeInfo::end 
+2025-11-26 12:53:29 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:53:29 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-26 12:53:29 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-26 12:53:29 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:53:29 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:53:30 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:53:30 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 350 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:53:30 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:53:30 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:53:30 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:53:30 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:53:31 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:53:31 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:53:31 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1931 ms
+2025-11-26 12:53:31 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:53:31 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-11-26 12:53:31 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-11-26 12:53:31 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:53:32 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:53:32 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:53:33 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2020b4ff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77974aef, org.springframework.security.web.context.SecurityContextPersistenceFilter@4aa0657, org.springframework.security.web.header.HeaderWriterFilter@4a00e3c2, org.springframework.security.web.authentication.logout.LogoutFilter@651a8b34, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3f54bfcd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1742ddde, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a113207, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16784fa9, org.springframework.security.web.session.SessionManagementFilter@d5cce0c, org.springframework.security.web.access.ExceptionTranslationFilter@45fac03c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d679d21]
+2025-11-26 12:53:33 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:53:33 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:53:33 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:53:33 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:53:33 - com.vam.cco.CCOApplication - Started CCOApplication in 4.455 seconds (JVM running for 1144.026)
+2025-11-26 12:53:33 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:53:37 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:53:37 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-11-26 12:53:37 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-11-26 12:53:37 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:53:37 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:53:38 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:53:39 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 380 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:53:39 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:53:39 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:53:39 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:53:39 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:53:39 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:53:39 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:53:39 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1989 ms
+2025-11-26 12:53:40 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:53:40 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-11-26 12:53:40 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-11-26 12:53:40 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:53:40 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:53:40 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:53:41 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65e50b1e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b10c761, org.springframework.security.web.context.SecurityContextPersistenceFilter@26dea327, org.springframework.security.web.header.HeaderWriterFilter@700fb5ca, org.springframework.security.web.authentication.logout.LogoutFilter@592eb2b9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7969ca27, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c754f60, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41d912c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63963e37, org.springframework.security.web.session.SessionManagementFilter@50036575, org.springframework.security.web.access.ExceptionTranslationFilter@2a480135, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24db94a0]
+2025-11-26 12:53:41 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:53:41 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:53:41 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:53:41 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:53:41 - com.vam.cco.CCOApplication - Started CCOApplication in 3.725 seconds (JVM running for 1151.968)
+2025-11-26 12:53:41 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:57:20 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:57:20 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-11-26 12:57:20 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-11-26 12:57:20 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:57:20 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:57:20 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:57:21 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 229 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:57:21 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:57:21 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:57:21 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:57:21 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:57:21 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:57:21 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:57:21 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1184 ms
+2025-11-26 12:57:21 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:57:21 - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-11-26 12:57:21 - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-11-26 12:57:21 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:57:21 - org.hibernate.SQL - 
+    
+    alter table account 
+       add column department_id bigint not null
+2025-11-26 12:57:21 - org.hibernate.SQL - 
+    
+    alter table account 
+       add column department_code varchar(255)
+2025-11-26 12:57:21 - org.hibernate.SQL - 
+    
+    alter table account 
+       add column department_name varchar(255)
+2025-11-26 12:57:21 - org.hibernate.SQL - 
+    
+    alter table account 
+       add column department_status varchar(255)
+2025-11-26 12:57:21 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:57:21 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:57:22 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57c6a696, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b1aadf4, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d536cd8, org.springframework.security.web.header.HeaderWriterFilter@38303e33, org.springframework.security.web.authentication.logout.LogoutFilter@617f44f1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@37abbb81, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@fcc5002, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3634266e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8a7d017, org.springframework.security.web.session.SessionManagementFilter@1869281c, org.springframework.security.web.access.ExceptionTranslationFilter@6b1f2242, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5aad898]
+2025-11-26 12:57:22 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:57:22 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:57:22 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:57:22 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:57:22 - com.vam.cco.CCOApplication - Started CCOApplication in 2.593 seconds (JVM running for 1373.182)
+2025-11-26 12:57:22 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:58:28 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:58:28 - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-11-26 12:58:28 - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-11-26 12:58:28 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:58:28 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:58:28 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:58:29 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 203 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:58:29 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:58:29 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:58:29 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:58:29 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:58:29 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:58:29 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:58:29 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 998 ms
+2025-11-26 12:58:29 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:58:29 - com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-11-26 12:58:29 - com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-11-26 12:58:29 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:58:29 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:58:29 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:58:30 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@619b4c8f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@418cd355, org.springframework.security.web.context.SecurityContextPersistenceFilter@65951123, org.springframework.security.web.header.HeaderWriterFilter@313018c6, org.springframework.security.web.authentication.logout.LogoutFilter@3f374d02, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6787a9e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49317d4a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78f6aa82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39826d72, org.springframework.security.web.session.SessionManagementFilter@1d92f101, org.springframework.security.web.access.ExceptionTranslationFilter@470d60a3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f74f056]
+2025-11-26 12:58:30 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:58:30 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:58:30 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:58:30 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:58:30 - com.vam.cco.CCOApplication - Started CCOApplication in 1.896 seconds (JVM running for 1440.629)
+2025-11-26 12:58:30 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:58:31 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:58:31 - com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-11-26 12:58:31 - com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2025-11-26 12:58:32 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:58:32 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:58:32 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:58:32 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 157 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:58:32 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:58:32 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:58:32 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:58:32 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:58:32 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:58:32 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:58:32 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 845 ms
+2025-11-26 12:58:32 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:58:32 - com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2025-11-26 12:58:33 - com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2025-11-26 12:58:33 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:58:33 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:58:33 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:58:33 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@12e2a164, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4965682a, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f36afb0, org.springframework.security.web.header.HeaderWriterFilter@58dff7c4, org.springframework.security.web.authentication.logout.LogoutFilter@400fec9b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@61ffac6d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14966f43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3350cbc2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70f2a08f, org.springframework.security.web.session.SessionManagementFilter@53d957ce, org.springframework.security.web.access.ExceptionTranslationFilter@1b2a1825, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13554f76]
+2025-11-26 12:58:33 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:58:33 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:58:33 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:58:33 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:58:33 - com.vam.cco.CCOApplication - Started CCOApplication in 1.647 seconds (JVM running for 1444.129)
+2025-11-26 12:58:33 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:58:36 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:58:36 - com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2025-11-26 12:58:36 - com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2025-11-26 12:58:36 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:58:36 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:58:37 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:58:37 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 201 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:58:37 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:58:37 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:58:37 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:58:37 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:58:37 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:58:37 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:58:37 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1010 ms
+2025-11-26 12:58:37 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:58:37 - com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2025-11-26 12:58:37 - com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2025-11-26 12:58:37 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:58:37 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:58:37 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:58:38 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1cb9c08, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6850be95, org.springframework.security.web.context.SecurityContextPersistenceFilter@1403967e, org.springframework.security.web.header.HeaderWriterFilter@3d984dd9, org.springframework.security.web.authentication.logout.LogoutFilter@31109b19, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e38b32a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e05c5a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@710ca735, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1462f2f2, org.springframework.security.web.session.SessionManagementFilter@43d177bf, org.springframework.security.web.access.ExceptionTranslationFilter@3a740d0a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@50358f72]
+2025-11-26 12:58:38 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:58:38 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:58:38 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:58:38 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:58:38 - com.vam.cco.CCOApplication - Started CCOApplication in 1.826 seconds (JVM running for 1448.774)
+2025-11-26 12:58:38 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:59:03 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:03 - com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2025-11-26 12:59:03 - com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2025-11-26 12:59:03 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:59:03 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:59:03 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:59:03 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 158 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:59:03 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:59:03 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:03 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:59:03 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:59:04 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:59:04 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:59:04 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 773 ms
+2025-11-26 12:59:04 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:59:04 - com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2025-11-26 12:59:04 - com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2025-11-26 12:59:04 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:59:04 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:59:04 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:04 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46907712, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6818aa0c, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a658b4a, org.springframework.security.web.header.HeaderWriterFilter@482e5ee8, org.springframework.security.web.authentication.logout.LogoutFilter@c76f48, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3fa4b564, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4cafe7a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@764c39c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@509071cb, org.springframework.security.web.session.SessionManagementFilter@7f31fe70, org.springframework.security.web.access.ExceptionTranslationFilter@7c434de1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@130576a2]
+2025-11-26 12:59:04 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:59:04 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:59:04 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:04 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:59:04 - com.vam.cco.CCOApplication - Started CCOApplication in 1.469 seconds (JVM running for 1475.21)
+2025-11-26 12:59:04 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:59:11 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:11 - com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2025-11-26 12:59:11 - com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2025-11-26 12:59:12 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:59:12 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:59:12 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:59:12 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 289 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:59:12 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:59:12 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:12 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:59:12 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:59:13 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:59:13 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:59:13 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1272 ms
+2025-11-26 12:59:13 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:59:13 - com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2025-11-26 12:59:13 - com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2025-11-26 12:59:13 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:59:13 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:59:13 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:14 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@72526106, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43c5d1d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@b261764, org.springframework.security.web.header.HeaderWriterFilter@72c25e17, org.springframework.security.web.authentication.logout.LogoutFilter@381d0851, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ffcadef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e73ba12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e21752d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7844b0a7, org.springframework.security.web.session.SessionManagementFilter@5cdc3f7b, org.springframework.security.web.access.ExceptionTranslationFilter@5b61dc3e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f20835a]
+2025-11-26 12:59:14 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:59:14 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:59:14 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:14 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:59:14 - com.vam.cco.CCOApplication - Started CCOApplication in 2.179 seconds (JVM running for 1484.612)
+2025-11-26 12:59:14 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:59:28 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:28 - com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2025-11-26 12:59:28 - com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2025-11-26 12:59:29 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:59:29 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:59:29 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:59:29 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 192 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:59:29 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:59:29 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:29 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:59:29 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:59:29 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:59:29 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:59:29 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 879 ms
+2025-11-26 12:59:29 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:59:29 - com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2025-11-26 12:59:29 - com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2025-11-26 12:59:29 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:59:30 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:59:30 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:30 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2ccdd6d8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c5b26ce, org.springframework.security.web.context.SecurityContextPersistenceFilter@392501a2, org.springframework.security.web.header.HeaderWriterFilter@10a7fd51, org.springframework.security.web.authentication.logout.LogoutFilter@48b12f42, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@59b2fbc6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13e196ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c83bcb6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3901ddd7, org.springframework.security.web.session.SessionManagementFilter@182fa82e, org.springframework.security.web.access.ExceptionTranslationFilter@581e5e06, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@548021eb]
+2025-11-26 12:59:30 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:59:30 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:59:30 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:30 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:59:30 - com.vam.cco.CCOApplication - Started CCOApplication in 1.576 seconds (JVM running for 1501.001)
+2025-11-26 12:59:30 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:59:35 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:35 - com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2025-11-26 12:59:35 - com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2025-11-26 12:59:35 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:59:35 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:59:36 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:59:36 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 187 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:59:36 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:59:36 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:36 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:59:36 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:59:36 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:59:36 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:59:36 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 921 ms
+2025-11-26 12:59:36 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:59:36 - com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2025-11-26 12:59:36 - com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2025-11-26 12:59:36 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:59:36 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:59:36 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:37 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@695c78b9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b6db949, org.springframework.security.web.context.SecurityContextPersistenceFilter@47e70b79, org.springframework.security.web.header.HeaderWriterFilter@445fd81f, org.springframework.security.web.authentication.logout.LogoutFilter@10ff6b2e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2824bf91, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1af935a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@205c99c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f810289, org.springframework.security.web.session.SessionManagementFilter@56333381, org.springframework.security.web.access.ExceptionTranslationFilter@36ed65d2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b7ff0f5]
+2025-11-26 12:59:37 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:59:37 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:59:37 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:37 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:59:37 - com.vam.cco.CCOApplication - Started CCOApplication in 1.602 seconds (JVM running for 1507.643)
+2025-11-26 12:59:37 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:59:44 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:44 - com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2025-11-26 12:59:44 - com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2025-11-26 12:59:44 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:59:44 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:59:45 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:59:45 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 223 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:59:45 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:59:45 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:45 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:59:45 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:59:45 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:59:45 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:59:45 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 993 ms
+2025-11-26 12:59:45 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:59:45 - com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+2025-11-26 12:59:45 - com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+2025-11-26 12:59:45 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:59:45 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:59:45 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:46 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@238761be, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ed17fb5, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a957f90, org.springframework.security.web.header.HeaderWriterFilter@282d6da1, org.springframework.security.web.authentication.logout.LogoutFilter@13b51405, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@106d1192, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72acacae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31af873f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5032468, org.springframework.security.web.session.SessionManagementFilter@636616fb, org.springframework.security.web.access.ExceptionTranslationFilter@6f18f135, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ac03522]
+2025-11-26 12:59:46 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:59:46 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:59:46 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:46 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:59:46 - com.vam.cco.CCOApplication - Started CCOApplication in 1.71 seconds (JVM running for 1516.665)
+2025-11-26 12:59:46 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:59:50 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:50 - com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+2025-11-26 12:59:50 - com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+2025-11-26 12:59:50 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:59:50 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:59:50 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:59:50 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 188 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:59:50 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:59:50 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:50 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:59:50 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:59:51 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:59:51 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:59:51 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 898 ms
+2025-11-26 12:59:51 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:59:51 - com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+2025-11-26 12:59:51 - com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+2025-11-26 12:59:51 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:59:51 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:59:51 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:51 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1cc03e9c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b9c76c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cc06b51, org.springframework.security.web.header.HeaderWriterFilter@2755dfb, org.springframework.security.web.authentication.logout.LogoutFilter@161a82c5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30a5c3ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54e14af7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c534f15, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77c17bb5, org.springframework.security.web.session.SessionManagementFilter@6b23c348, org.springframework.security.web.access.ExceptionTranslationFilter@5bf27365, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c9bb14]
+2025-11-26 12:59:51 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:59:51 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:59:51 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:51 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:59:51 - com.vam.cco.CCOApplication - Started CCOApplication in 1.606 seconds (JVM running for 1522.223)
+2025-11-26 12:59:51 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 12:59:53 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:53 - com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
+2025-11-26 12:59:53 - com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
+2025-11-26 12:59:53 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 12:59:53 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 12:59:53 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 12:59:54 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 182 ms. Found 18 JPA repository interfaces.
+2025-11-26 12:59:54 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 12:59:54 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:54 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 12:59:54 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 12:59:54 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 12:59:54 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 12:59:54 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 865 ms
+2025-11-26 12:59:54 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 12:59:54 - com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Starting...
+2025-11-26 12:59:54 - com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Start completed.
+2025-11-26 12:59:54 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 12:59:54 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 12:59:54 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 12:59:54 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76064c18, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40050df2, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e0bfed9, org.springframework.security.web.header.HeaderWriterFilter@38585641, org.springframework.security.web.authentication.logout.LogoutFilter@2ee8e300, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3ee90b8f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50468445, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a562a52, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2dd3ebc, org.springframework.security.web.session.SessionManagementFilter@4b4dc150, org.springframework.security.web.access.ExceptionTranslationFilter@95cecb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c55d9ef]
+2025-11-26 12:59:54 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 12:59:54 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 12:59:54 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 12:59:54 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 12:59:54 - com.vam.cco.CCOApplication - Started CCOApplication in 1.534 seconds (JVM running for 1525.432)
+2025-11-26 12:59:54 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-26 13:00:06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 13:00:06 - com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown initiated...
+2025-11-26 13:00:06 - com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown completed.
+2025-11-26 13:00:06 - com.vam.cco.CCOApplication - Starting CCOApplication using Java 15.0.1 on VSP-5CG5330694 with PID 18960 (C:\sts-workspace\CCOApplication\target\classes started by Bharat“Sai”Nallapara in C:\sts-workspace\CCOApplication)
+2025-11-26 13:00:06 - com.vam.cco.CCOApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 13:00:07 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 13:00:07 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 169 ms. Found 18 JPA repository interfaces.
+2025-11-26 13:00:07 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2025-11-26 13:00:07 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-11-26 13:00:07 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-26 13:00:07 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-26 13:00:07 - org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-26 13:00:07 - o.a.c.c.C.[.[localhost].[/ccoApp] - Initializing Spring embedded WebApplicationContext
+2025-11-26 13:00:07 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 933 ms
+2025-11-26 13:00:07 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 13:00:07 - com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Starting...
+2025-11-26 13:00:07 - com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Start completed.
+2025-11-26 13:00:07 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-11-26 13:00:07 - org.hibernate.SQL - 
+    
+    create table department (
+       department_id bigint not null auto_increment,
+        created_by varchar(255) not null,
+        created_date datetime(6) not null,
+        department_code varchar(255),
+        department_name varchar(255),
+        department_status varchar(255),
+        modified_by varchar(255) not null,
+        modified_date datetime(6) not null,
+        primary key (department_id)
+    ) engine=InnoDB
+2025-11-26 13:00:07 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-26 13:00:07 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 13:00:08 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@334f6a12, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76641bec, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e9bb7df, org.springframework.security.web.header.HeaderWriterFilter@77f9a78f, org.springframework.security.web.authentication.logout.LogoutFilter@5687b56, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c3b5b85, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a149d43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40eb8851, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50603657, org.springframework.security.web.session.SessionManagementFilter@31d2e631, org.springframework.security.web.access.ExceptionTranslationFilter@31beaea9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ba9b176]
+2025-11-26 13:00:08 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 13:00:08 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-26 13:00:08 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-11-26 13:00:08 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/ccoApp'
+2025-11-26 13:00:08 - com.vam.cco.CCOApplication - Started CCOApplication in 1.573 seconds (JVM running for 1538.662)
+2025-11-26 13:00:08 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
