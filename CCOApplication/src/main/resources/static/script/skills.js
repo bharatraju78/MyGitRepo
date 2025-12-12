@@ -16,7 +16,10 @@ $(function() {
             },
 			modifiedDate: {
 				required: true
-            }
+            },
+			technologySolutionCenter: {
+				required: false
+			}
 		},
 		messages: {
 			accNo: {
@@ -173,6 +176,7 @@ function showUpdateSkill(id){
 function renderUpdateSkill(data){
 	$('#skillId').val(data.skillId);
 	$('#skillName').val(data.skillName);	
+	$('#technologySolutionCenter').val(data.technologySolutionCenter);
    
 	$('#createdBy').val(data.createdBy);
 	$('#createdDate').prop('valueAsDate', new Date(data.createdDate));

@@ -2,6 +2,8 @@ package com.vam.cco.model;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
+import java.util.Date;
+import java.util.List;
 
 public class SkillModel implements Serializable {
 
@@ -16,8 +18,14 @@ public class SkillModel implements Serializable {
 	
 	private String createdBy;
 	private String modifiedBy;
-	private Timestamp createdDate;
-	private Timestamp modifiedDate;
+	private Date createdDate;
+	private Date modifiedDate;
+	private String technologySolutionCenter;
+	private List<String> techCenterList;
+	
+	public SkillModel() {
+		techCenterList = new java.util.ArrayList<>();
+	}
 	
 	public Long getSkillId() {
 		return skillId;
@@ -43,23 +51,39 @@ public class SkillModel implements Serializable {
 	public void setModifiedBy(String modifiedBy) {
 		this.modifiedBy = modifiedBy;
 	}
-	public Timestamp getCreatedDate() {
+	public Date getCreatedDate() {
 		return createdDate;
 	}
-	public void setCreatedDate(Timestamp createdDate) {
+	public void setCreatedDate(Date createdDate) {
 		this.createdDate = createdDate;
 	}
-	public Timestamp getModifiedDate() {
+	public Date getModifiedDate() {
 		return modifiedDate;
 	}
-	public void setModifiedDate(Timestamp modifiedDate) {
+	public void setModifiedDate(Date modifiedDate) {
 		this.modifiedDate = modifiedDate;
+	}
+
+	public String getTechnologySolutionCenter() {
+		return technologySolutionCenter;
+	}
+
+	public void setTechnologySolutionCenter(String technologySolutionCenter) {
+		this.technologySolutionCenter = technologySolutionCenter;
 	}
 	@Override
 	public String toString() {
-		return "SkillModel [skillId=" + skillId + ", skillName=" + skillName + ", createdBy=" + createdBy
+		return "SkillModel [skillId=" + skillId + ", skillName=" + skillName + ", technologySolutionCenter=" + technologySolutionCenter + ", createdBy=" + createdBy
 				+ ", modifiedBy=" + modifiedBy + ", createdDate=" + createdDate + ", modifiedDate=" + modifiedDate
 				+ "]";
+	}
+
+	public List<String> getTechCenterList() {
+		return techCenterList;
+	}
+
+	public void setTechCenterList(List<String> techCenterList) {
+		this.techCenterList = techCenterList;
 	}
 	
 	

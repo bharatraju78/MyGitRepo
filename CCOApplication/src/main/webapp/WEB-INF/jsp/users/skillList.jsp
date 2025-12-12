@@ -52,6 +52,7 @@
             <tr>
                 <th>ID</th>
                 <th>Name</th>
+                <th>Technology Solution Center</th>
                 <th>Created By</th>
                 <th>Modified By</th>
                 <th>Created Date</th>
@@ -64,6 +65,7 @@
                 <tr>
                     <td>${skill.skillId}</td>
                     <td>${skill.skillName}</td>
+                    <td>${skill.technologySolutionCenter}</td>
                     <td>${skill.createdBy}</td>
                     <td>${skill.modifiedBy}</td>
                     <td>

@@ -29,4 +29,8 @@ public interface AccountService {
 	Page<AccountModel> findAccountsByProtfolio(Long protfolio, Pageable pageable);
 	
 	Page<AccountModel> findAccountsByProtfolio(List<Long> protfolioIds, Pageable pageable);
+	
+	List<String> getAllActiveAccountNames();
+
+	List<AccountModel> findAllActiveAccounts();
 }

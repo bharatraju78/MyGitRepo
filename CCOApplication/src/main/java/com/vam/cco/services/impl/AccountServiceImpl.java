@@ -14,6 +14,7 @@ import com.vam.cco.dao.entity.Account;
 import com.vam.cco.dao.repository.AccountRepository;
 import com.vam.cco.model.AccountModel;
 import com.vam.cco.services.AccountService;
+import com.vam.cco.util.StatusEnum;
 
 @Service
 public class AccountServiceImpl implements AccountService {
@@ -82,4 +83,24 @@ public class AccountServiceImpl implements AccountService {
     public Page<AccountModel> findAccountsByProtfolio(List<Long> protfolioIds, Pageable pageable) {
     	return accountRepository.findAccountsByProtfolio(protfolioIds, pageable);
     }
+    
+    @Override
+    public List<AccountModel> findAllActiveAccounts() {
+        logger.info("Finding all active accounts");
+        return accountRepository.findAllActiveAccounts();
+    }
+
+	@Override
+	public List<String> getAllActiveAccountNames() {
+//	    List<Account> accounts = findAll();
+		List<AccountModel> accounts = accountRepository.findAllActiveAccounts();
+	    if (accounts != null && !accounts.isEmpty()) {
+//	        return accounts.stream()
+//	                .filter(a -> a.getAccStatus().equals(StatusEnum.ACTIVE.getStatus()))   // Filter only active accounts
+//	                .map(a -> a.getAccName())
+//	                .toList();
+	    	return accounts.stream().map(a -> a.getAccName()).toList();
+	    }
+	    return List.of();   // Return empty list instead of null (best practice)
+	}
 }

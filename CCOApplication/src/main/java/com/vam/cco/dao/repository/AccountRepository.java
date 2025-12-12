@@ -36,4 +36,9 @@ public interface AccountRepository extends JpaRepository<Account, Long> {
 			+ "where a.portfolio.id in :protfolioIds and a.accStatus = 'Active' "
 			+ " order by a.accName ")
 	Page<AccountModel> findAccountsByProtfolio(@Param("protfolioIds") List<Long> protfolio, Pageable pageable);
+	
+	@Query(value = "SELECT distinct new com.vam.cco.model.AccountModel(a.accountId, a.accNo, a.accName, a.accCreatedDate,"
+			+ "a.accStartDate, a.accEndDate, a.accStatus) FROM Account as a  "
+			+ "where a.accStatus = 'Active'  order by a.accName ")
+	List<AccountModel> findAllActiveAccounts();
 }

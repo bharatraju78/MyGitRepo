@@ -33,6 +33,8 @@ public class Skill implements Serializable {
 	private Date createdDate;
 	@Column(name = "modified_date", nullable = false)
 	private Date modifiedDate;
+	@Column(name = "technology_solution_center")
+	private String technologySolutionCenter;
 	
 	public Long getSkillId() {
 		return skillId;
@@ -70,9 +72,15 @@ public class Skill implements Serializable {
 	public void setModifiedDate(Date modifiedDate) {
 		this.modifiedDate = modifiedDate;
 	}
+	public String getTechnologySolutionCenter() {
+		return technologySolutionCenter;
+	}
+	public void setTechnologySolutionCenter(String technologySolutionCenter) {
+		this.technologySolutionCenter = technologySolutionCenter;
+	}
 	@Override
 	public String toString() {
-		return "Skill [skillId=" + skillId + ", skillName=" + skillName + ", createdBy=" + createdBy + ", modifiedBy="
+		return "Skill [skillId=" + skillId + ", skillName=" + skillName + ", technologySolutionCenter=" + technologySolutionCenter + ", createdBy=" + createdBy + ", modifiedBy="
 				+ modifiedBy + ", createdDate=" + createdDate + ", modifiedDate=" + modifiedDate + "]";
 	}
 }

@@ -43,17 +43,24 @@
 			    	</a>
 			    	<ul class="dropdown-menu">
 			    		 <li><a href="${pageContext.request.contextPath}/admin/account/account-list">Account</a></li>
+			    		 <li><a href="${pageContext.request.contextPath}/admin/opportunity/opportunity-list">Opportunity</a></li>
+			    		 <li><a href="${pageContext.request.contextPath}/admin/department/department-list">Departments</a></li>
 			    		 <li><a href="${pageContext.request.contextPath}/admin/designations/list">Designations</a></li>
 			    		 <li><a href="${pageContext.request.contextPath}/admin/grades/list">Grade</a></li>
 			    		 <li><a href="${pageContext.request.contextPath}/admin/labels/labels-list">Labels</a></li>
 			    		 <li><a href="${pageContext.request.contextPath}/admin/portfolio/mapAccounts">Map Accounts to Portfolio</a></li>
 			    		 <li><a href="${pageContext.request.contextPath}/admin/map-associates/accountList">Map Associates</a></li>
 			    		 <li><a href="${pageContext.request.contextPath}/admin/portfolio/list">Portfolio</a></li>
-			             <li><a href="${pageContext.request.contextPath}/admin/projects/project-list">Project</a></li>
-			             <li><a href="${pageContext.request.contextPath}/admin/project-roles/project-role-list">Project Roles</a></li>
-			             <li><a href="${pageContext.request.contextPath}/admin/skills/list">Skills</a></li>
-			             <li><a href="${pageContext.request.contextPath}/admin/verticals/list">Vertical</a></li>
-			        </ul>
+	             <li><a href="${pageContext.request.contextPath}/admin/projects/project-list">Project</a></li>
+	             <li><a href="${pageContext.request.contextPath}/admin/project-roles/project-role-list">Project Roles</a></li>
+	             <li><a href="${pageContext.request.contextPath}/admin/skills/list">Skills</a></li>
+	             <li><a href="${pageContext.request.contextPath}/admin/verticals/list">Vertical</a></li>
+	             <li><a href="${pageContext.request.contextPath}/admin/practice/practice-list">Practice</a></li>
+                     <li><a href="${pageContext.request.contextPath}/admin/tea-estimate/list">Tea Estimates</a></li>
+                     <li><a href="${pageContext.request.contextPath}/admin/cutoff/list">Cut Off Parameters</a></li>
+                     <li><a href="${pageContext.request.contextPath}/admin/working-hours/list">Working Hours</a></li>
+                     <li><a href="${pageContext.request.contextPath}/admin/rates/list">Rates</a></li>
+	        </ul>
 			    </li>
 			    </security:authorize>
 			    <security:authorize access="hasRole('ROLE_HR') or hasRole('ROLE_ADMIN')">

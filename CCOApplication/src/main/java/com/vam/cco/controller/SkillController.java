@@ -25,7 +25,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.vam.cco.dao.entity.Skill;
+import com.vam.cco.model.SkillModel;
 import com.vam.cco.services.SkillService;
+import com.vam.cco.util.TechnologySolutionCenterEnum;
 
 @Controller
 @RequestMapping("/admin/skills")
@@ -58,12 +60,13 @@ public class SkillController {
 
     @GetMapping("/add")
     public String showAddForm(Model model) {
-    	Skill skill = new Skill();
-    	 Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+    	SkillModel skill = new SkillModel();
+    	Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
  		if (authentication != null) {
  			skill.setCreatedBy(authentication.getName());
  			skill.setCreatedDate(new Timestamp(Calendar.getInstance().getTimeInMillis()));
  			skill.setModifiedBy(authentication.getName());
+ 			skill.setTechCenterList(TechnologySolutionCenterEnum.getAllTechCenters());
  			skill.setModifiedDate(new Timestamp(Calendar.getInstance().getTimeInMillis()));
  		}
         model.addAttribute("skill", skill);
@@ -75,26 +78,31 @@ public class SkillController {
         Optional<Skill> skill = skillService.findById(id);
         if (skill.isPresent()) {
         	Skill existingSkill = skill.get();
+        	SkillModel skillModel = prepareModelForDisplay(existingSkill);
         	Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         	if (authentication != null) {
         		existingSkill.setModifiedBy(authentication.getName());
         		existingSkill.setModifiedDate(new Timestamp(Calendar.getInstance().getTimeInMillis()));
         	}
-            model.addAttribute("skill", skill.get());
+            model.addAttribute("skill", skillModel);
             return "users/skillForm";
         } else {
             return "redirect:/admin/skills/list";
         }
     }
 
-    @PostMapping("/skill-save")
-    public String saveOrUpdate(@ModelAttribute Skill skill, Model model) {
+    
+
+	@PostMapping("/skill-save")
+    public String saveOrUpdate(@ModelAttribute SkillModel skill, Model model) {
         try {
-        	Long skillId = skill.getSkillId();
-			skillService.save(skill);
-			if (skillId == null) {
+			if (skill.getSkillId() == null) {
+				Skill entity = prepareSkillForPersistence(skill);
+				skillService.save(entity);
 				model.addAttribute("successMessage", "Skill added successfully: ");
 			} else {
+				Skill entity = prepareSkillForPersistence(skill);
+				skillService.update(entity);
 				model.addAttribute("successMessage", "Skill updated successfully: ");
 			}
 		} catch (Exception e) {
@@ -104,7 +112,45 @@ public class SkillController {
         return "redirect:/admin/skills/list";
     }
 
-    @GetMapping("/delete/{id}")
+    private Skill prepareSkillForPersistence(SkillModel skill) {
+    	Skill entity = null;
+    	Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+		if(skill != null) {
+			entity = skill.getSkillId() != null ? skillService.findById(skill.getSkillId()).orElse(new Skill()) : new Skill();
+//			entity.setSkillId(skill.getSkillId());
+			entity.setSkillName(skill.getSkillName());
+			entity.setTechnologySolutionCenter(skill.getTechnologySolutionCenter());
+			if(skill.getSkillId() == null) {
+				entity.setCreatedBy(authentication.getName());
+				entity.setCreatedDate(new Timestamp(Calendar.getInstance().getTimeInMillis()));
+			}else {
+				entity.setCreatedBy(skill.getCreatedBy());
+				entity.setCreatedDate(skill.getCreatedDate());
+			}
+			entity.setModifiedBy(authentication.getName());
+			entity.setModifiedDate(new Timestamp(Calendar.getInstance().getTimeInMillis()));
+			return entity;
+		}
+		return entity;
+	}
+    
+    private SkillModel prepareModelForDisplay(Skill existingSkill) {
+		SkillModel model = new SkillModel();
+		if(existingSkill != null) {
+			model.setSkillId(existingSkill.getSkillId());
+			model.setSkillName(existingSkill.getSkillName());
+			model.setTechnologySolutionCenter(existingSkill.getTechnologySolutionCenter());
+			model.setCreatedBy(existingSkill.getCreatedBy());
+			model.setCreatedDate(new Timestamp(existingSkill.getCreatedDate().getTime()));
+			model.setModifiedBy(existingSkill.getModifiedBy());
+			model.setModifiedDate(new Timestamp(existingSkill.getModifiedDate().getTime()));
+			model.setTechCenterList(TechnologySolutionCenterEnum.getAllTechCenters());
+			return model;
+		}
+		return model;
+	}
+
+	@GetMapping("/delete/{id}")
     public String delete(@PathVariable Long id) {
         skillService.deleteById(id);
         return "redirect:/admin/skills/list";

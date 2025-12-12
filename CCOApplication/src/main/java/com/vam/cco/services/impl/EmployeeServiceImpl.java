@@ -419,9 +419,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         model.setDesignationId(entity.getDesignationId());
         model.setGradeId(entity.getGradeId());
         model.setEmailId(entity.getEmailId());
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-        model.setDoj(entity.getDoj()); // Remove new LocalDate(...)
-        dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+        DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
         model.setDojSearch(dateFormat.format(entity.getDoj()));
         model.setStatus(entity.getStatus());
         model.setSkillDataFromLD(entity.getSkillDataFromLD());
@@ -432,7 +430,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         model.setFinalStatus(entity.getFinalStatus());
         model.setResignationDate(entity.getResignationDate());
         model.setAttritionRisk(entity.getAttritionRisk());
-        model.setCtc(entity.getCtc());
+        model.setCtc(entity.getCtc() != null ? entity.getCtc().doubleValue() : null);
         model.setTodo(entity.getTodo());
         model.setYearOneHike(entity.getYearOneHike());
         model.setCreatedBy(entity.getCreatedBy());
@@ -465,7 +463,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 			entity.setFinalStatus(model.getFinalStatus());
 			entity.setResignationDate(model.getResignationDate());
 			entity.setAttritionRisk(model.getAttritionRisk());
-			entity.setCtc(model.getCtc());
+			entity.setCtc(model.getCtc() != null ? java.math.BigDecimal.valueOf(model.getCtc()) : null);
 			entity.setTodo(model.getTodo());
 			entity.setYearOneHike(model.getYearOneHike());
 			entity.setCreatedBy(model.getCreatedBy());

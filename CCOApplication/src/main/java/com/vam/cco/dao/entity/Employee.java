@@ -1,6 +1,7 @@
 package com.vam.cco.dao.entity;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -50,7 +51,7 @@ public class Employee implements Serializable {
 	private Date resignationDate;
 	private String attritionRisk;
 	
-	private Double ctc;
+	private BigDecimal ctc;
 	private String todo;
 	private String yearOneHike;
 	private String yearTwoHike;
@@ -177,10 +178,10 @@ public class Employee implements Serializable {
 	public void setAttritionRisk(String attritionRisk) {
 		this.attritionRisk = attritionRisk;
 	}
-	public Double getCtc() {
+	public BigDecimal getCtc() {
 		return ctc;
 	}
-	public void setCtc(Double ctc) {
+	public void setCtc(BigDecimal ctc) {
 		this.ctc = ctc;
 	}
 	public String getTodo() {

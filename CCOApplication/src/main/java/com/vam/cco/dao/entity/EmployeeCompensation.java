@@ -29,7 +29,8 @@ public class EmployeeCompensation implements Serializable {
     private Long employeeId;
 
     @Column(name = "ctc", nullable = false)
-    private Double ctc;
+    @javax.persistence.Convert(converter = com.vam.cco.util.EncryptDecryptConverter.class)
+    private java.math.BigDecimal ctc;
 
     @Column(name = "start_date")
     @Temporal(TemporalType.DATE)
@@ -74,8 +75,8 @@ public class EmployeeCompensation implements Serializable {
     public void setId(Long id) { this.id = id; }
     public Long getEmployeeId() { return employeeId; }
     public void setEmployeeId(Long employeeId) { this.employeeId = employeeId; }
-    public Double getCtc() { return ctc; }
-    public void setCtc(Double ctc) { this.ctc = ctc; }
+    public java.math.BigDecimal getCtc() { return ctc; }
+    public void setCtc(java.math.BigDecimal ctc) { this.ctc = ctc; }
     public Date getStartDate() { return startDate; }
     public void setStartDate(Date startDate) { this.startDate = startDate; }
     public Date getEndDate() { return endDate; }

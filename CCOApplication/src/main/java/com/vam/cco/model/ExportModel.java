@@ -1,6 +1,7 @@
 package com.vam.cco.model;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 
@@ -38,7 +39,7 @@ public class ExportModel implements Serializable{
 	private Date rorDate;
 	private String rorComments;
 	private Date rorOnBoadingDate;
-	private Double ctc;
+	private BigDecimal ctc;
 	private String todo;
 	private String yearOneHike;
 	private String yearTwoHike;
@@ -61,7 +62,7 @@ public class ExportModel implements Serializable{
 			String verticalName, String accName, String projectName, String skillDataFromld, String currentSkill,
 			String status, String statusWithDays, String vamExp, String totalExp, String finalStatus,
 			Date resignationDate, String performanceAsPerpm, String attritionRisk, String ror, Date startDate,
-			Date endDate, Date rorDate, String rorComments, Date rorOnBoadingDate, Double ctc, String todo,
+			Date endDate, Date rorDate, String rorComments, Date rorOnBoadingDate, BigDecimal ctc, String todo,
 			String yearOneHike, String yearTwoHike, Long allocationPercentage, String allocationType, Long projectRoleId,
 			Long employeeId, Long accountId, Long empAllId, Long verticalId, Long projectId, String replName,
 			String replVAMId, Date ctcStartDate, Date ctcEndDate) {
@@ -258,13 +259,13 @@ public class ExportModel implements Serializable{
 	public void setRorOnBoadingDate(Date rorOnBoadingDate) {
 		this.rorOnBoadingDate = rorOnBoadingDate;
 	}
-	public Double getCtc() {
+	public BigDecimal getCtc() {
 		if(null == ctc) {
-			ctc = 0.0;
+			ctc = new BigDecimal("0.0");
 		}
 		return ctc;
 	}
-	public void setCtc(Double ctc) {
+	public void setCtc(BigDecimal ctc) {
 		this.ctc = ctc;
 	}
 	public String getTodo() {

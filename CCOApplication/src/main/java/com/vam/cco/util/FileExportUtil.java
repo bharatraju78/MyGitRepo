@@ -255,7 +255,7 @@ public class FileExportUtil {
 			columnIndex++;
 			
 			cell = dataRow.createCell(columnIndex);
-			cell.setCellValue(exportModel.getCtc());
+			cell.setCellValue(exportModel.getCtc().doubleValue());
 			cell.setCellStyle(dataCellStyle);
 			sheet.autoSizeColumn(columnIndex);
 			columnIndex++;

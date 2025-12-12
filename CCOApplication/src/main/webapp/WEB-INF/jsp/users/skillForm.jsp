@@ -43,38 +43,17 @@
             </div>
             <div class="row">
                 <div class="form-group">
-                    <label class="col-sm-2" for="createdBy">Created By</label>
+                    <label class="col-sm-2" for="technologySolutionCenter">Technology Solution Center</label>
                     <div class="col-lg-4">
-                        <input type="text" class="form-control" value="${skill.createdBy}" readonly="readonly" />
+                        <select class="form-control" id="technologySolutionCenter" name="technologySolutionCenter" >
+                        	<c:forEach var="s" items="${skill.techCenterList}">
+                            	<option value="${s}" ${s == skill.technologySolutionCenter ? 'selected' : ''}>${s}</option>
+                         	</c:forEach>
+                     	</select>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="form-group">
-                    <label class="col-sm-2" for="modifiedBy">Modified By</label>
-                    <div class="col-lg-4">
-                        <input type="text" class="form-control" value="${skill.modifiedBy}" readonly="readonly" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="form-group">
-                    <label class="col-sm-2" for="createdDate">Created Date</label>
-                    <div class="col-lg-4">
-                        <fmt:formatDate value="${skill.createdDate}" pattern="yyyy-MM-dd HH:mm:ss" var="createdDateFmt" />
-                        <input type="text" class="form-control" value="${createdDateFmt}" readonly="readonly" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="form-group">
-                    <label class="col-sm-2" for="modifiedDate">Modified Date</label>
-                    <div class="col-lg-4">
-                        <fmt:formatDate value="${skill.modifiedDate}" pattern="yyyy-MM-dd HH:mm:ss" var="modifiedDateFmt" />
-                        <input type="text" class="form-control" value="${modifiedDateFmt}" readonly="readonly" />
-                    </div>
-                </div>
-            </div>
+            
             <div class="form-group">
                 <div class="col-sm-4">
                     <button type="submit" class="btn btn-success">Save</button>
